@@ -7,7 +7,6 @@ import Contact_button from "../comps/contact_button";
 import styles from "../styles/infoPara.module.css";
 import layout from "../styles/landingItems.module.css";
 import medialayouts from "../styles/mediaLinks.module.css";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -78,6 +77,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          height: 100vh;
         }
         footer {
           width: 100%;
@@ -111,6 +111,7 @@ export default function Home() {
         html,
         body {
           padding: 0;
+          height: 100%;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
@@ -120,6 +121,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-    //commit
   );
 }

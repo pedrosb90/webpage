@@ -8,19 +8,22 @@ function Navbar() {
         <h1 className={styles.mainTitle}> Pedro Strauch</h1>
         <h2 className={styles.title}> Full Stack Developer </h2>
       </div>
-      <Link className={styles.link} href="/bio">
+      <Link className={`${styles.link} ${styles.press} `} href="/bio">
         Bio
       </Link>
-      <Link className={styles.link} href="/stack">
+      <Link className={`${styles.link} ${styles.press} `} href="/stack">
         Stack
       </Link>
-      <Link className={styles.link} href="/cvpage">
+      <Link className={`${styles.link} ${styles.press} `} href="/cvpage">
         CV
       </Link>
-      <Link className={styles.link} href="/projects">
+      <Link className={`${styles.link} ${styles.press} `} href="/projects">
         Projects
       </Link>
-      <Link className={`${styles.link} ${styles.more}`} href="/more">
+      <Link
+        className={`${styles.link} ${styles.more} ${styles.press}`}
+        href="/more"
+      >
         More
       </Link>
     </nav>

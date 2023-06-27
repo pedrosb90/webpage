@@ -5,9 +5,9 @@
   background-color: #464646;
   width: 80%;
   border-radius: 15px;
-  margin-left: 4%;
-  margin-top: 5%;
-  margin-bottom: 3%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .titleContainer {
   text-align: center;
@@ -24,8 +24,16 @@
   line-height: 0.8;
   font-weight: 600;
 }
+.press {
+  transition: transform 0.3s ease;
+}
+.press:hover {
+  transform: translateY(-5px);
+}
+
 .more {
   color: white;
+  margin-bottom: 40px;
 }
 
 .mainTitle {
