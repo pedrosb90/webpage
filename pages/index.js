@@ -7,6 +7,7 @@ import Contact_button from "../comps/contact_button";
 import styles from "../styles/infoPara.module.css";
 import layout from "../styles/landingItems.module.css";
 import medialayouts from "../styles/mediaLinks.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -30,8 +31,33 @@ export default function Home() {
           </p>
         </div>
         <div className={medialayouts.container}>
-          <Image alt="git" src={git} height={80} width={175} />
-          <Image alt="linke" src={linke} height={80} width={90} />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/pedrosb90/"
+          >
+            <Image
+              className={medialayouts.press}
+              alt="git"
+              src={git}
+              height={80}
+              width={175}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pedrostrauchbraga/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <Image
+              className={medialayouts.press}
+              alt="linke"
+              src={linke}
+              height={80}
+              width={90}
+            />
+          </a>
         </div>
         <Contact_button />
       </main>
