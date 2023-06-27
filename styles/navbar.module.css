@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #464646;
+  width: 200px;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.link {
+  color: #fb6fcb;
+  text-decoration: none;
+  margin-bottom: 25px;
+}

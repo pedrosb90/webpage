@@ -2,12 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import git from "/Users/pedro/Desktop/webpage/github logoiso.png";
 import linke from "/Users/pedro/Desktop/webpage/linkedin logo.png";
-import Button from "../comps/button";
+import Navbar from "../comps/navbar";
+import Contact_button from "../comps/contact_button";
 
 export default function Home() {
-  const handleClick = () => {
-    alert("button clicked!");
-  };
   return (
     <div>
       <Head>
@@ -21,7 +19,9 @@ export default function Home() {
           <h2> Full Stack Developer </h2>
         </div>
         <div>
-          <text>
+          <Navbar />
+
+          <p>
             I am a newbie Full-Stack dev with the mission of creating amazing,
             next level applications for the 22nd Century. My passion por extreme
             sports and photography inspire me to create amazing user
@@ -29,13 +29,13 @@ export default function Home() {
             developing that will rocket the UX. I am going to combine visuals
             with the use of the best practices and technologies to create
             attractive and volatile applications.
-          </text>
+          </p>
         </div>
         <div>
           <Image alt="git" src={git} height={80} width={175} />
           <Image alt="linke" src={linke} height={80} width={90} />
         </div>
-        <Button onClick={handleClick}>Contact Now</Button>{" "}
+        <Contact_button />
       </main>
 
       <footer>
