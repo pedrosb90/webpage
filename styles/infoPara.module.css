@@ -1,5 +1,9 @@
 .container {
   margin-top: 20px;
-  margin-right: 40px;
+  margin-right: 10%;
   margin-left: 5%;
+  border: 1px solid #f6ff8e;
+  border-radius: 20px;
+  padding: 30px;
+  line-height: 2;
 }

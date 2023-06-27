@@ -1,13 +1,13 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 40px;
   background-color: #464646;
   width: 80%;
+  height: 88%;
   border-radius: 15px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 8%;
+  margin-top: 8%;
 }
 .titleContainer {
   text-align: center;
@@ -33,11 +33,11 @@
 
 .more {
   color: white;
-  margin-bottom: 40px;
 }
 
 .mainTitle {
   color: #f6ff8e;
+  font-size: xx-large;
 }
 .title {
   color: #d2d2d2;

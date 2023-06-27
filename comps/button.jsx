@@ -1,5 +1,11 @@
+import styles from "../styles/button.module.css";
+
 const Button = ({ onClick, children }) => {
-  return <button onClick={onClick}>{children}</button>;
+  return (
+    <button className={styles.button} onClick={onClick}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;
