@@ -4,6 +4,9 @@ import git from "/Users/pedro/Desktop/webpage/github logoiso.png";
 import linke from "/Users/pedro/Desktop/webpage/linkedin logo.png";
 import Navbar from "../comps/navbar";
 import Contact_button from "../comps/contact_button";
+import styles from "../styles/infoPara.module.css";
+import layout from "../styles/landingItems.module.css";
+import medialayouts from "../styles/mediaLinks.module.css";
 
 export default function Home() {
   return (
@@ -12,16 +15,11 @@ export default function Home() {
         <title>Soy Pedro</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
-        <div>
-          <h1> Pedro Strauch</h1>
-          <h2> Full Stack Developer </h2>
-        </div>
-        <div>
+        <div className={layout.container}>
+          {" "}
           <Navbar />
-
-          <p>
+          <p className={styles.container}>
             I am a newbie Full-Stack dev with the mission of creating amazing,
             next level applications for the 22nd Century. My passion por extreme
             sports and photography inspire me to create amazing user
@@ -31,7 +29,7 @@ export default function Home() {
             attractive and volatile applications.
           </p>
         </div>
-        <div>
+        <div className={medialayouts.container}>
           <Image alt="git" src={git} height={80} width={175} />
           <Image alt="linke" src={linke} height={80} width={90} />
         </div>
@@ -87,7 +85,6 @@ export default function Home() {
         html,
         body {
           padding: 0;
-          margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;

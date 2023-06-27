@@ -1,15 +1,38 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 30px;
   background-color: #464646;
-  width: 200px;
+  width: 80%;
   border-radius: 15px;
-  margin-left: 20px;
+  margin-left: 4%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.titleContainer {
+  text-align: center;
+  margin-top: 20px;
+  line-height: 0.8;
 }
 
 .link {
   color: #fb6fcb;
   text-decoration: none;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
+  margin-top: 25px;
+  margin-left: 80px;
+  line-height: 0.8;
+  font-weight: 600;
+}
+.more {
+  color: white;
+}
+
+.mainTitle {
+  color: #f6ff8e;
+}
+.title {
+  color: #d2d2d2;
+  font-weight: 300;
+  margin-bottom: 35px;
 }
