@@ -15,8 +15,8 @@ export default function Home() {
         <title>Soy Pedro</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div className={layout.container}>
+      <main className={layout.background}>
+        <div className={`${layout.container}`}>
           {" "}
           <Navbar />
           <p className={styles.container}>
@@ -36,7 +36,7 @@ export default function Home() {
             href="https://github.com/pedrosb90/"
           >
             <Image
-              className={medialayouts.press}
+              className={`${medialayouts.press} ${medialayouts.style}`}
               alt="git"
               src={git}
               height={80}
@@ -47,10 +47,11 @@ export default function Home() {
             href="https://www.linkedin.com/in/pedrostrauchbraga/"
             target="_blank"
             rel="noopener noreferrer"
+            className={medialayouts.style}
           >
             {" "}
             <Image
-              className={medialayouts.press}
+              className={`${medialayouts.press} ${medialayouts.style}`}
               alt="linke"
               src={linke}
               height={80}

@@ -2,3 +2,8 @@
   display: flex;
   align-items: center;
 }
+.background {
+  background-image: url("/Users/pedro/Desktop/webpage/public/wpTheme.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

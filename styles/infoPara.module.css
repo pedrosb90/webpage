@@ -1,9 +1,11 @@
 .container {
+  color: white;
+  background-color: rgba(70, 70, 70, 0.3);
   margin-top: 20px;
   margin-right: 10%;
   margin-left: 5%;
   border: 1px solid #f6ff8e;
-  border-radius: 20px;
-  padding: 30px;
+  border-radius: 30px;
+  padding: 20px;
   line-height: 2;
 }
