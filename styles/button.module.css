@@ -11,3 +11,12 @@
   outline: none;
   border: 2px solid;
 }
+
+.press {
+  transition: transform 0.3s ease;
+}
+
+.press:hover {
+  transform: translateY(-5px);
+  background-color: #fb6fcaac;
+}

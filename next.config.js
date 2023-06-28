@@ -7,6 +7,7 @@ module.exports = {
         {
           loader: "style-loader",
         },
+
         {
           loader: "css-loader",
           options: {
@@ -15,7 +16,6 @@ module.exports = {
         },
       ],
     });
-
     return config;
   },
 };

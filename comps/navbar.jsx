@@ -14,7 +14,7 @@ function Navbar() {
       <Link className={`${styles.link} ${styles.press} `} href="/stack">
         Stack
       </Link>
-      <Link className={`${styles.link} ${styles.press} `} href="/cvpage">
+      <Link className={`${styles.link} ${styles.press} `} href="/cv">
         CV
       </Link>
       <Link className={`${styles.link} ${styles.press} `} href="/projects">

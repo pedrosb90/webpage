@@ -61,14 +61,6 @@ export default function Home() {
         <Contact_button />
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
-      </footer>
-
       <style jsx>{`
         main {
           flex: 1;
