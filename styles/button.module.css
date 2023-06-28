@@ -1,6 +1,6 @@
 .button {
   justify-content: center;
-  background-color: #fb6fcb;
+  background-color: #fb6fcaef;
   color: white;
   border-radius: 22px;
   font-size: medium;
@@ -9,7 +9,6 @@
   justify-content: center;
   margin-bottom: 20px;
   outline: none;
-  border: 2px solid;
 }
 
 .press {
@@ -18,5 +17,5 @@
 
 .press:hover {
   transform: translateY(-5px);
-  background-color: #fb6fcaac;
+  background-color: #fb6fcad2;
 }

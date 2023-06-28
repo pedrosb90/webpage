@@ -18,13 +18,14 @@
 .link {
   display: flex;
   flex-direction: column;
-  color: #fb6fcb;
+  color: #f866c5;
   text-decoration: none;
   margin-bottom: 28px;
-  margin-top: 25px;
+  margin-top: 22px;
   margin-left: 18%;
   line-height: 0.8;
   font-weight: 600;
+  font-size: large;
 }
 .press {
   transition: transform 0.3s ease;
@@ -40,9 +41,11 @@
 .mainTitle {
   color: #f6ff8e;
   font-size: xx-large;
+  font-weight: 600;
 }
 .title {
   color: #d2d2d2;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 35px;
+  line-height: 1.1;
 }
