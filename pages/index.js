@@ -1,23 +1,15 @@
-import Head from "next/head";
-import Image from "next/legacy/image";
-import git from "/Users/pedro/Desktop/webpage/github logoiso.png";
-import linke from "/Users/pedro/Desktop/webpage/linkedin logo.png";
-import Navbar from "../comps/navbar";
 import Contact_button from "../comps/contact_button";
 import styles from "../styles/infoPara.module.css";
 import layout from "../styles/landingItems.module.css";
-import medialayouts from "../styles/mediaLinks.module.css";
+import Layout from "../comps/layout";
+import Navbar from "../comps/navbar";
+import MediaLinks from "../comps/mediaLinks";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Soy Pedro</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className={layout.background}>
+    <Layout>
+      <div className={layout.background}>
         <div className={`${layout.container}`}>
-          {" "}
           <Navbar />
           <p className={styles.container}>
             I am a newbie Full-Stack dev with the mission of creating amazing,
@@ -29,62 +21,9 @@ export default function Home() {
             attractive and volatile applications.
           </p>
         </div>
-        <div className={medialayouts.container}>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/pedrosb90/"
-          >
-            <Image
-              className={`${medialayouts.press} ${medialayouts.style}`}
-              alt="git"
-              src={git}
-              height={80}
-              width={175}
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/pedrostrauchbraga/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={medialayouts.style}
-          >
-            <Image
-              className={`${medialayouts.press} ${medialayouts.style}`}
-              alt="linke"
-              src={linke}
-              height={80}
-              width={90}
-            />
-          </a>
-        </div>
+        <MediaLinks />
         <Contact_button />
-      </main>
-
-      <style jsx>{`
-        main {
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
-          margin-bottom: 0;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          height: 100vh;
-          margin: 0;
-          font-family: ;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
+      </div>
+    </Layout>
   );
 }

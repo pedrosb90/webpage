@@ -4,7 +4,7 @@
   padding: 40px;
   background-color: rgba(70, 70, 70, 0.3);
   width: 80%;
-  height: 88%;
+  height: 80%;
   border-radius: 15px;
   margin-left: 8%;
   margin-top: 8%;
@@ -26,6 +26,7 @@
   line-height: 0.8;
   font-weight: 600;
   font-size: large;
+  flex-grow: 1;
 }
 .press {
   transition: transform 0.3s ease;

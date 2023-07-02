@@ -1,6 +1,7 @@
 .container {
   display: flex;
   margin-bottom: 2%;
+  margin-left: 46%;
   margin-top: -6%;
   overflow: visible;
 }
