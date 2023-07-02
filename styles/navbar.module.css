@@ -8,6 +8,7 @@
   border-radius: 15px;
   margin-left: 8%;
   margin-top: 8%;
+  overflow-y: auto;
 }
 .titleContainer {
   text-align: center;
