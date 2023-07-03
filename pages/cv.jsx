@@ -1,12 +1,14 @@
-import { Document, Page } from "react-pdf";
 import Image from "next/legacy/image";
 import myCv1 from "../public/cvrefp1.jpg";
 import myCv2 from "../public/cvrefp2.jpg";
+import Navbar from "../comps/navbar";
+import styles from "../styles/cv.module.css";
+import Layout from "../comps/layout";
 
 function Cv() {
   return (
-    <div>
-      {" "}
+    <Layout>
+      <Navbar />
       <Image
         src={myCv1}
         width={1270}
@@ -21,7 +23,7 @@ function Cv() {
         alt="CV Page 2"
         layout="responsive"
       />
-    </div>
+    </Layout>
   );
 }
 
