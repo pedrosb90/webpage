@@ -1,5 +1,13 @@
+import Layout from "../comps/layout";
+import Navbar from "../comps/navbar";
+
 function Stack() {
-  return <div>welcome to stack</div>;
+  return (
+    <Layout>
+      <Navbar />
+      <div>stack</div>
+    </Layout>
+  );
 }
 
 export default Stack;

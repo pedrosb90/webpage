@@ -22,9 +22,9 @@ function Navbar({ children }) {
       </Link>
       <Link
         className={`${styles.link} ${styles.more} ${styles.press}`}
-        href="/more"
+        href="/"
       >
-        More
+        Home
       </Link>
     </nav>
   );
