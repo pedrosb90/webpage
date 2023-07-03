@@ -9,7 +9,7 @@ function Bio() {
       <div className={styles.container}>
         <ul>
           <li>1990 - Born in Montevideo Uruguay, 5th child of 5. </li>
-          <li>1996 - Entered School</li>
+          <li className="text-green-500">1996 - Entered School</li>
           <li>2010 - Graduated from School</li>
           <li>2011 - Entered University to Study Business & Tourism</li>
           <li>2012 - Started taking German language lessons</li>

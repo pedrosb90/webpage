@@ -2,27 +2,28 @@ import Image from "next/legacy/image";
 import myCv1 from "../public/cvrefp1.jpg";
 import myCv2 from "../public/cvrefp2.jpg";
 import Navbar from "../comps/navbar";
-import styles from "../styles/cv.module.css";
 import Layout from "../comps/layout";
+import styles from "../styles/cv.module.css";
 
 function Cv() {
   return (
     <Layout>
       <Navbar />
-      <Image
-        src={myCv1}
-        width={1270}
-        height={1900}
-        alt="CV Page 1"
-        layout="responsive"
-      />
-      <Image
-        src={myCv2}
-        width={1270}
-        height={1900}
-        alt="CV Page 2"
-        layout="responsive"
-      />
+      <div className={styles.imageContainer}>
+        <Image
+          src={myCv1}
+          width={660}
+          height={890}
+          alt="CV Page 1"
+          margin-left={50}
+        />
+        {/* <Image
+          src={myCv2}
+          width={770}
+          height={1200}
+          alt="CV Page 2"
+        /> */}
+      </div>
     </Layout>
   );
 }
