@@ -1,5 +1,12 @@
+import Layout from "../comps/layout";
+import Navbar from "../comps/navbar";
+
 function Projects() {
-  return <div>welcome to projects</div>;
+  return (
+    <Layout>
+      <Navbar />{" "}
+    </Layout>
+  );
 }
 
 export default Projects;
