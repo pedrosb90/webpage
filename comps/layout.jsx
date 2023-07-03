@@ -1,5 +1,6 @@
 import Head from "next/head";
 import bgstyle from "../styles/landingItems.module.css";
+import Navbar from "./navbar";
 
 const Layout = ({ children }) => {
   return (

@@ -11,6 +11,7 @@ export default function Home() {
       <div className={layout.background}>
         <div className={`${layout.container}`}>
           <Navbar />
+          {/* <h1>About</h1> */}
           <p className={styles.container}>
             I am a newbie Full-Stack dev with the mission of creating amazing,
             next level applications for the 22nd Century. My passion por extreme
@@ -21,8 +22,6 @@ export default function Home() {
             attractive and volatile applications.
           </p>
         </div>
-        <MediaLinks />
-        <Contact_button />
       </div>
     </Layout>
   );
