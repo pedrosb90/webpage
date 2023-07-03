@@ -21,9 +21,9 @@ export default function Home() {
             with the use of the best practices and technologies to create
             attractive and volatile applications.
           </p>
+          <MediaLinks />
           <Contact_button />
         </div>
-        <MediaLinks />
       </div>
     </Layout>
   );
