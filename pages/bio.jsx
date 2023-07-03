@@ -15,6 +15,7 @@ function Bio() {
           <li className={styles.eduHighlight}>2010 - Graduated from School</li>
           <li>2011 - Entered University to Study Business & Tourism</li>
           <li>2012 - Started taking German language lessons</li>
+          <li>2013/23 - Working in the Travel & Lyfestyle Industry</li>
           <li>2016 - Graduated from University</li>
           <li>2020 - Began learning Javascript</li>
           <li>2022 - Joined Soy-Henry Full-Stack Bootcamp</li>
