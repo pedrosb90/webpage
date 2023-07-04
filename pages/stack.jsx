@@ -10,9 +10,19 @@ function Stack() {
     <Layout>
       <Navbar />
       <div className={styles.container}>
-        <div>
-          <h1 className={styles.title}>Tech Skills</h1>
+        <h1 className={styles.title}>Tech Skills</h1>
+        <div className={styles.listContainer}>
           <Image src={dipI} height={200} width={280} display="responsive" />
+          <ul className={styles.skillsList}>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Node</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Redux</li>
+            <li>SQL</li>
+          </ul>
         </div>
         <div>
           <h1 className={styles.title}>Soft Skills</h1>
