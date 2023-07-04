@@ -12,8 +12,8 @@ function Cv() {
       <div className={styles.imageContainer}>
         <Image
           src={myCv1}
-          width={660}
-          height={890}
+          width={620}
+          height={820}
           alt="CV Page 1"
           margin-left={50}
         />

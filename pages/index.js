@@ -13,12 +13,13 @@ export default function Home() {
           <Navbar />
           <p className={styles.container}>
             I am a Full-Stack dev with the mission of creating amazing, next
-            level applications for the 22nd Century. My passion por extreme
-            sports and photography inspire me to create amazing user
-            experiences. I am fond of libraries that allow agile and smart
-            developing that will rocket the UX. I am going to combine visuals
-            with the use of the best practices and technologies to create
-            attractive and volatile applications.
+            level applications and solutions for the 22nd Century. My passion
+            por extreme sports, cinema, computers and photography inspire me to
+            create amazing app user experiences that contribute to the use
+            objectives. I prefer libraries that allow agile and smart developing
+            to rocket the application's functionality. I am going to combine
+            visuals with the use of the best tech and human practices to create
+            volatile applications.
           </p>
           <MediaLinks />
           <Contact_button />

@@ -1,6 +1,7 @@
 .imageContainer {
   top: 0;
   right: 0;
+  overflow-y: visible;
   display: flex;
   flex-direction: column;
   overflow: visible;
