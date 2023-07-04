@@ -1,0 +1,16 @@
+.title {
+  color: #f6ff8e;
+  font-size: large;
+  font-weight: 600;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: rgba(70, 70, 70, 0.3);
+  width: 500px;
+  border-radius: 15px;
+  margin-left: 120px;
+  margin-top: 50px;
+  overflow-y: auto;
+}
