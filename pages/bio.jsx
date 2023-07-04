@@ -27,7 +27,7 @@ function Bio() {
             {" "}
             2023 - Full-Stack Developer COMPLETED
           </li>
-          <li>2024 -</li>
+          <li className={styles.yearHL}>2024 -</li>
           <Image src={imgRocket} height={35} />
         </ul>{" "}
       </div>
