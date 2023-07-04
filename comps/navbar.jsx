@@ -10,6 +10,11 @@ function Navbar({ children }) {
       ? `${styles.link} ${styles.press} ${styles.selected}`
       : `${styles.link} ${styles.press}`;
   };
+  const isRouteSelectedHome = (route) => {
+    return router.pathname === route
+      ? `${styles.link} ${styles.press} ${styles.selected}`
+      : `${styles.link} ${styles.more} ${styles.press}`;
+  };
   return (
     <nav className={styles.container}>
       <div className={styles.titleContainer}>
@@ -19,19 +24,16 @@ function Navbar({ children }) {
       <Link className={isRouteSelected("/bio")} href="/bio">
         Bio
       </Link>
-      <Link className={`${styles.link} ${styles.press} `} href="/stack">
+      <Link className={isRouteSelected("/stack")} href="/stack">
         Stack
       </Link>
-      <Link className={`${styles.link} ${styles.press} `} href="/cv">
+      <Link className={isRouteSelected("/cv")} href="/cv">
         CV
       </Link>
-      <Link className={`${styles.link} ${styles.press} `} href="/projects">
+      <Link className={isRouteSelected("/projects")} href="/projects">
         Projects
       </Link>
-      <Link
-        className={`${styles.link} ${styles.more} ${styles.press}`}
-        href="/"
-      >
+      <Link className={isRouteSelectedHome("/")} href="/">
         Home
       </Link>
     </nav>
