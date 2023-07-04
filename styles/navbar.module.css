@@ -38,6 +38,10 @@
 .more {
   color: white;
 }
+.selected {
+  color: #f6ff8eb5;
+  font-size: 16.5pt;
+}
 
 .mainTitle {
   color: #f6ff8e;
