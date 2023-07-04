@@ -10,14 +10,18 @@ function Bio() {
       <Navbar />
       <div className={styles.container}>
         <ul>
-          <li>1990 - Born in Montevideo Uruguay, 5th child of 5. </li>
+          <li>1990 - Born in Montevideo Uruguay, 5th and best child of 5 </li>
           <li>1996 - Entered School</li>
+          <li>2008 - Flew my first aircraft</li>
           <li className={styles.eduHighlight}>2010 - Graduated from School</li>
           <li>2011 - Entered University to Study Business & Tourism</li>
           <li>2012 - Started taking German language lessons</li>
-          <li>2013/23 - Working in the Travel & Lyfestyle Industry</li>
-          <li>2016 - Graduated from University</li>
-          <li>2020 - Began learning Javascript</li>
+          <li>2013 - First Job in the Travel & Lifestyle</li>
+          <li className={styles.edu2Highlight}>
+            2016 - Graduated from University
+          </li>
+          <li>2017/20 - Lived and worked by the beach and countryside</li>
+          <li>2020 - First Javascript online course</li>
           <li>2022 - Joined Soy-Henry Full-Stack Bootcamp</li>
           <li className={styles.devHighlight}>
             {" "}
