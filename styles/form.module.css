@@ -9,9 +9,45 @@
   padding-left: 280px;
   padding-right: 280px;
   border: none;
-  margin-left: 10%;
+  margin: auto;
 }
 
 .label {
   color: white;
+}
+
+.input {
+  border-radius: 3px;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 260px;
+  height: 40px;
+  border: none;
+}
+.text {
+  border-radius: 3px;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 260px;
+  height: 88px;
+  border: none;
+}
+.button {
+  justify-content: center;
+  border-radius: 9px;
+  border: none;
+  height: 29px;
+  margin-left: 40%;
+  color: white;
+  background-color: #fb6fcaef;
+}
+.press {
+  transition: transform 0.3s ease;
+}
+
+.press:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.3);
 }

@@ -1,7 +1,6 @@
 import Layout from "../comps/layout";
 import React, { useState } from "react";
 import Navbar from "../comps/navbar";
-
 import styles from "../styles/form.module.css";
 
 function Contact_form() {
@@ -18,8 +17,11 @@ function Contact_form() {
       <div className={styles.container}>
         <form onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="name">Name:</label>
+            <label className={styles.label} htmlFor="name">
+              Name:
+            </label>
             <input
+              className={styles.input}
               type="text"
               id="name"
               value={name}
@@ -31,6 +33,7 @@ function Contact_form() {
               Email:
             </label>
             <input
+              className={styles.input}
               type="email"
               id="email"
               value={email}
@@ -38,14 +41,23 @@ function Contact_form() {
             />
           </div>
           <div>
-            <label htmlFor="message">Message:</label>
+            <label className={styles.label} htmlFor="message">
+              Message:
+            </label>
             <textarea
+              className={styles.text}
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button type="submit">Submit</button>
+          <button
+            className={`${styles.button} ${styles.press}`}
+            type="submit"
+            // onClick={onClick}
+          >
+            Submit
+          </button>
         </form>
       </div>
     </Layout>
