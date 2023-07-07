@@ -33,6 +33,9 @@ function Navbar({ children }) {
       <Link className={isRouteSelected("/projects")} href="/projects">
         Projects
       </Link>
+      <Link className={isRouteSelected("/contact")} href="/contact">
+        Contact{" "}
+      </Link>
       <Link className={isRouteSelectedHome("/")} href="/">
         Home
       </Link>

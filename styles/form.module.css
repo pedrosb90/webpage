@@ -1,4 +1,7 @@
 .container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   background-color: rgba(70, 70, 70, 0.5);
   border-radius: 20px;
   height: 400px;
@@ -6,7 +9,7 @@
   padding-left: 280px;
   padding-right: 280px;
   border: none;
-  margin-left: 80px;
+  margin-left: 10%;
 }
 
 .label {
