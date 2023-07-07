@@ -4,7 +4,7 @@ import Navbar from "../comps/navbar";
 function Projects() {
   return (
     <Layout>
-      <Navbar />{" "}
+      <Navbar /> <div>Estamos en projectos</div>
     </Layout>
   );
 }

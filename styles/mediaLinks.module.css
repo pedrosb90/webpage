@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  align-items: center;
   margin-left: -39%;
   margin-top: 210px;
 }
@@ -8,7 +9,7 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 .press:hover {
-  transform: translateY(5px);
+  transform: translateY(-5px);
 }
 .style {
   border-radius: 30px;
