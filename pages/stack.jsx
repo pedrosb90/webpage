@@ -15,8 +15,8 @@ function Stack() {
           <Image
             className={styles.imageContainer}
             src={dipI}
-            height={200}
-            width={280}
+            height={190}
+            width={270}
             display="responsive"
           />
           <ul className={styles.skillsList}>
@@ -37,8 +37,8 @@ function Stack() {
           <Image
             className={styles.imageContainer}
             src={dipII}
-            height={200}
-            width={280}
+            height={190}
+            width={270}
             display="responsive"
           />
           <ul className={styles.skillsList}>
