@@ -1,0 +1,25 @@
+.message {
+  color: #f6ff8e;
+  padding: 40px;
+  align-items: center;
+  font-size: 18pt;
+  font-weight: 400;
+  opacity: 0;
+  animation: dropIn 0.7s forwards;
+}
+
+@keyframes dropIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.container {
+  margin: auto;
+  border-radius: 30px;
+  background-color: rgba(70, 70, 70, 0.3);
+}
