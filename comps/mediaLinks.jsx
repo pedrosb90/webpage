@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
-import git from "/Users/pedro/Desktop/webpage/github logoiso.png";
-import linke from "/Users/pedro/Desktop/webpage/linkedin logo.png";
+import git from "../public/github logoiso.png";
+import linke from "../public/linkedin logo.png";
 import layouts from "../styles/mediaLinks.module.css";
 
 function MediaLinks() {
