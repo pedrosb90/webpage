@@ -15,7 +15,11 @@ function Contact_form() {
     <Layout>
       <Navbar />{" "}
       <div className={styles.container}>
-        <form onSubmit={handleSubmit}>
+        <form
+          onSubmit={handleSubmit}
+          action="https://formspree.io/f/xqkvkqod"
+          method="POST"
+        >
           <div>
             <label className={styles.label} htmlFor="name">
               Name:
