@@ -8,7 +8,7 @@ function Contact_success() {
       <Navbar />
       <div className={styles.container}>
         <h1 className={styles.message}>
-          Thank you for reaching out! I will get back to you immediately.
+          Thank you! Your message has been submitted.
         </h1>
       </div>
     </Layout>

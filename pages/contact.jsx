@@ -2,6 +2,7 @@ import Layout from "../comps/layout";
 import React, { useState } from "react";
 import Navbar from "../comps/navbar";
 import styles from "../styles/form.module.css";
+import { useRouter } from "next/router";
 
 function Contact_form() {
   const [name, setName] = useState("");
@@ -22,7 +23,8 @@ function Contact_form() {
         body: formData,
       });
       if (response.ok) {
-        console.log("Submited Successfully");
+        const router = useRouter();
+        router.push("/contact_success");
       } else {
         console.error("Submission failed..");
       }

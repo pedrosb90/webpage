@@ -1,7 +1,7 @@
 .message {
-  color: #edff24;
-  padding: 40px;
-  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 50px;
   font-size: 18pt;
   font-weight: 400;
   opacity: 0;
@@ -19,9 +19,11 @@
   }
 }
 .container {
-  margin: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  align-items: center;
+  display: flex;
   border-radius: 30px;
-  background-color: #f866c576;
+  background-color: #46895770;
+  width: 40%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
