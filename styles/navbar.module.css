@@ -6,7 +6,8 @@
   width: 500px;
   border-radius: 15px;
   margin-left: 90px;
-  margin-top: 50px;
+  margin-top: 15%;
+  margin-bottom: 15%;
   overflow-y: auto;
 }
 .titleContainer {
