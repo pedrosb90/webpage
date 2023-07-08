@@ -8,8 +8,27 @@ function Contact_form() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const formData = new FormData();
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("message", message);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xqkvkqod", {
+        method: "POST",
+        body: formData,
+      });
+      if (response.ok) {
+        console.log("Submited Successfully");
+      } else {
+        console.error("Submission failed..");
+      }
+    } catch (error) {
+      console.error("- Error during submiting -", error);
+    }
   };
   return (
     <Layout>
