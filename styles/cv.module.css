@@ -1,9 +1,10 @@
 .imageContainer {
   top: 0;
   right: 0;
-  overflow-y: visible;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   overflow: visible;
   margin-left: 110px;
+  max-height: 100vh;
 }

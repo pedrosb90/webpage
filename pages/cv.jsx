@@ -1,5 +1,5 @@
 import Image from "next/legacy/image";
-import myCv1 from "../public/cvrefp1.jpg";
+import myCv1 from "../public/cvrefp1-2.jpg";
 import myCv2 from "../public/cvrefp2.jpg";
 import Navbar from "../comps/navbar";
 import Layout from "../comps/layout";
@@ -12,8 +12,8 @@ function Cv() {
       <div className={styles.imageContainer}>
         <Image
           src={myCv1}
-          width={620}
-          height={820}
+          width={610}
+          height={780}
           alt="CV Page 1"
           margin-left={50}
         />
