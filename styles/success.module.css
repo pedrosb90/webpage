@@ -23,7 +23,5 @@
   display: flex;
   border-radius: 30px;
   background-color: #46895770;
-  width: 40%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin: auto;
 }

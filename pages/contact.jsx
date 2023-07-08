@@ -2,12 +2,14 @@ import Layout from "../comps/layout";
 import React, { useState } from "react";
 import Navbar from "../comps/navbar";
 import styles from "../styles/form.module.css";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 function Contact_form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -23,7 +25,6 @@ function Contact_form() {
         body: formData,
       });
       if (response.ok) {
-        const router = useRouter();
         router.push("/contact_success");
       } else {
         console.error("Submission failed..");
@@ -76,12 +77,8 @@ function Contact_form() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button
-            className={`${styles.button} ${styles.press}`}
-            type="submit"
-            // onClick={onClick}
-          >
-            Submit
+          <button className={`${styles.button} ${styles.press}`} type="submit">
+            Send
           </button>
         </form>
       </div>
