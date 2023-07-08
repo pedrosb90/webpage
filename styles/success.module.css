@@ -1,5 +1,5 @@
 .message {
-  color: #f6ff8e;
+  color: #edff24;
   padding: 40px;
   align-items: center;
   font-size: 18pt;
@@ -20,6 +20,8 @@
 }
 .container {
   margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   border-radius: 30px;
-  background-color: rgba(70, 70, 70, 0.3);
+  background-color: #f866c576;
 }
