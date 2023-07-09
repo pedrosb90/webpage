@@ -2,7 +2,8 @@ import Layout from "../comps/layout";
 import React, { useState } from "react";
 import Navbar from "../comps/navbar";
 import styles from "../styles/form.module.css";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
+import axios from "axios";
 
 function Contact_form() {
   const [name, setName] = useState("");
@@ -20,19 +21,21 @@ function Contact_form() {
     formData.append("message", message);
 
     try {
-      const response = await fetch("https://formspree.io/f/xqkvkqod", {
-        method: "POST",
-        body: formData,
-      });
-      if (response.ok) {
+      const response = await axios.post(
+        "https://formspree.io/f/xqkvkqod",
+        formData
+      );
+      if (response.status >= 200 && response.status < 300) {
         router.push("/contact_success");
+        console.log("Submission successful");
       } else {
         console.error("Submission failed..");
       }
     } catch (error) {
-      console.error("- Error during submiting -", error);
+      console.error("- Error during submitting -", error);
     }
   };
+
   return (
     <Layout>
       <Navbar />{" "}
