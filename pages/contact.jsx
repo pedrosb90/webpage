@@ -12,7 +12,7 @@ function Contact_form() {
 
   const router = useRouter();
 
-  const handleSubmit = async (e) => {
+  const handleFormSubmit = async (e) => {
     e.preventDefault();
 
     const formData = new FormData();
@@ -29,7 +29,7 @@ function Contact_form() {
         router.push("/contact_success");
         console.log("Submission successful");
       } else {
-        console.error("Submission failed..");
+        router.push("/contact_error");
       }
     } catch (error) {
       console.error("- Error during submitting -", error);
@@ -41,7 +41,7 @@ function Contact_form() {
       <Navbar />{" "}
       <div className={styles.container}>
         <form
-          onSubmit={handleSubmit}
+          onSubmit={handleFormSubmit}
           action="https://formspree.io/f/xqkvkqod"
           method="POST"
         >

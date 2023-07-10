@@ -24,4 +24,13 @@
   border-radius: 30px;
   background-color: #46895770;
   margin: auto;
+  max-width: 38%;
+}
+.containerError {
+  align-items: center;
+  display: flex;
+  border-radius: 30px;
+  background-color: #ff463f70;
+  margin: auto;
+  max-width: 38%;
 }

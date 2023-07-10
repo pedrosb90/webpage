@@ -2,17 +2,18 @@ import Layout from "../comps/layout";
 import Navbar from "../comps/navbar";
 import styles from "../styles/contact_redirect.module.css";
 
-function Contact_success() {
+function Contact_error() {
   return (
     <Layout>
       <Navbar />
-      <div className={styles.container}>
+      <div className={styles.containerError}>
         <h1 className={styles.message}>
-          Thank you! Your message has been submitted.
+          Oops! Something went wrong. Please try again later or contact me
+          directly on LinkedIn.
         </h1>
       </div>
     </Layout>
   );
 }
 
-export default Contact_success;
+export default Contact_error;
