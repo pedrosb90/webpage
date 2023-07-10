@@ -4,11 +4,15 @@ import Navbar from "../comps/navbar";
 import styles from "../styles/form.module.css";
 import { useRouter } from "next/router";
 import axios from "axios";
+import { validName } from "../validations/validName";
+import { validEmail } from "../validations/validEmail";
+import { validMessage } from "../validations/validMessage";
 
 function Contact_form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [canSubmit, setCanSubmit] = useState(false);
 
   const router = useRouter();
 
@@ -41,6 +45,7 @@ function Contact_form() {
       <Navbar />{" "}
       <div className={styles.container}>
         <form
+          noValidate
           onSubmit={handleFormSubmit}
           action="https://formspree.io/f/xqkvkqod"
           method="POST"
@@ -56,6 +61,7 @@ function Contact_form() {
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
+            <label className={styles.errorMessage}>{validName(name)}</label>
           </div>
           <div>
             <label className={styles.label} htmlFor="email">
@@ -68,6 +74,7 @@ function Contact_form() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
+            <label className={styles.errorMessage}>{validEmail(email)}</label>
           </div>
           <div>
             <label className={styles.label} htmlFor="message">
@@ -79,6 +86,9 @@ function Contact_form() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
+            <label className={styles.errorMessage}>
+              {validMessage(message)}
+            </label>
           </div>
           <button className={`${styles.button} ${styles.press}`} type="submit">
             Send
