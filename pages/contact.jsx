@@ -12,7 +12,6 @@ function Contact_form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [canSubmit, setCanSubmit] = useState(false);
 
   const router = useRouter();
 
