@@ -1,9 +1,9 @@
 const validName = (value = "") => {
-  const isAlphabetical = /^[a-zA-Z]+$/.test(value);
+  const isAlphabetical = /^[a-zA-Z\s]+$/.test(value);
   const isNotAlpha = !/^\d+$/.test(value);
 
   if (value < 1) {
-    return null;
+    return "";
   }
   if (!isAlphabetical || !isNotAlpha) {
     return `Name must contain alphabetical characters only.`;
