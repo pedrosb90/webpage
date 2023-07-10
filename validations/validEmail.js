@@ -1,12 +1,11 @@
 const validEmail = (value = "") => {
   const regularEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  if (!value) {
-    return `Please add your e-mail address so I can reach you back.`;
+  if (value < 1) {
+    return null;
   }
-
   if (!value.match(regularEx)) {
-    return "Invalid email format. Please review your e-mail address.";
+    return "Please complete your e-mail address.";
   }
 
   return null;
