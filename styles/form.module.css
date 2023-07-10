@@ -47,6 +47,19 @@
   color: white;
   background-color: #fb6fcaef;
 }
+.ready {
+  justify-content: center;
+  text-align: center;
+  font-size: medium;
+  border-radius: 12px;
+  border: none;
+  height: 38px;
+  width: 68px;
+  margin-left: 40%;
+  color: white;
+  background-color: #78fb6f90;
+}
+
 .press {
   transition: transform 0.3s ease;
 }

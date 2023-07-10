@@ -14,6 +14,7 @@ const validName = (value = "") => {
   if (value.length < 5) {
     return `Please enter a full name.`;
   }
+  return null;
 };
 module.exports = {
   validName,

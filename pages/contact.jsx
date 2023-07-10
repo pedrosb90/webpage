@@ -7,13 +7,28 @@ import axios from "axios";
 import { validName } from "../validations/validName";
 import { validEmail } from "../validations/validEmail";
 import { validMessage } from "../validations/validMessage";
+import { StyleRegistry } from "styled-jsx";
+import { useEffect } from "react";
 
 function Contact_form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [formDone, setFormDone] = useState(false);
 
   const router = useRouter();
+
+  useEffect(() => {
+    if (
+      validName(name) === null &&
+      validEmail(email) === null &&
+      validMessage(message) === null
+    ) {
+      setFormDone(true);
+    } else {
+      setFormDone(false);
+    }
+  }, [name, email, message]);
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
@@ -30,6 +45,7 @@ function Contact_form() {
       );
       if (response.status >= 200 && response.status < 300) {
         router.push("/contact_success");
+
         console.log("Submission successful");
       } else {
         router.push("/contact_error");
@@ -58,7 +74,9 @@ function Contact_form() {
               type="text"
               id="name"
               value={name}
-              onChange={(e) => setName(e.target.value)}
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
             />
             <label className={styles.errorMessage}>{validName(name)}</label>
           </div>
@@ -71,7 +89,9 @@ function Contact_form() {
               type="email"
               id="email"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
             />
             <label className={styles.errorMessage}>{validEmail(email)}</label>
           </div>
@@ -83,13 +103,21 @@ function Contact_form() {
               className={styles.text}
               id="message"
               value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
             />
             <label className={styles.errorMessage}>
               {validMessage(message)}
             </label>
           </div>
-          <button className={`${styles.button} ${styles.press}`} type="submit">
+          <button
+            disabled={!formDone}
+            className={
+              !formDone ? `${styles.button} ${styles.press}` : `${styles.ready}`
+            }
+            type="submit"
+          >
             Send
           </button>
         </form>
