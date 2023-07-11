@@ -1,13 +1,11 @@
 .container {
   display: flex;
   color: white;
-  background-color: rgba(70, 70, 70, 0.2);
-  /* margin-right: 10%; */
-  margin-left: 15%;
-  margin-right: 20%;
+  background-color: rgba(24, 24, 24, 0.675);
   margin-top: 15%;
+  margin-bottom: 15%;
   margin: auto;
-  width: 40%;
+  width: 25%;
   border-radius: 30px;
   padding: 15px;
   line-height: 2;
@@ -22,15 +20,11 @@
   position: absolute; /* Added position absolute */
   top: 0;
 }
-.eduHighlight {
-  color: rgba(40, 124, 72, 0.466);
-}
+
 .devHighlight {
   color: #f6ff8e;
 }
-.edu2Highlight {
-  color: #2c48ff70;
-}
+
 .yearHL {
   font-size: larger;
 }
