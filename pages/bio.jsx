@@ -1,6 +1,7 @@
 import Layout from "../comps/layout";
 import Navbar from "../comps/navbar";
 import styles from "../styles/bio.module.css";
+import stylesII from "../styles/infoPara.module.css";
 import imgRocket from "../public/rocket_.png";
 import Image from "next/image";
 
@@ -8,6 +9,15 @@ function Bio() {
   return (
     <Layout>
       <Navbar />
+      <p className={stylesII.container}>
+        I am a Full-Stack dev with the mission of creating amazing, next level
+        applications and solutions for the 22nd Century. My passion por extreme
+        sports, cinema, computers and photography inspire me to create amazing
+        app user experiences that contribute to the use objectives. I prefer
+        libraries that allow agile and smart developing to rocket the
+        application's functionality. I am going to combine visuals with the use
+        of the best tech and human practices to create volatile applications.
+      </p>
       <div className={styles.container}>
         <ul>
           <li>1990 - Born in Montevideo Uruguay, 5th and best child of 5 </li>
