@@ -1,15 +1,16 @@
 .container {
   align-items: center;
+  text-align: center;
   display: flex;
   justify-content: center;
-  background-color: rgba(70, 70, 70, 0.5);
+  background-color: rgba(70, 70, 70, 0.189);
   border-radius: 20px;
   height: 520px;
-  width: 500px;
+  width: 40%;
   padding: 60px;
   border: none;
   margin: auto;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .label {
@@ -21,6 +22,7 @@
 }
 
 .input {
+  /* text-align: center; */
   border-radius: 3px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -29,6 +31,7 @@
   border: none;
 }
 .text {
+  /* text-align: center; */
   border-radius: 3px;
   margin-top: 10px;
   width: 300px;
@@ -43,9 +46,9 @@
   border: none;
   height: 38px;
   width: 68px;
-  margin-left: 40%;
+  /* margin-left: 40%; */
   color: white;
-  background-color: rgb(249, 127, 127);
+  background-color: rgba(255, 27, 251, 0.575);
 }
 .ready {
   justify-content: center;
@@ -57,7 +60,7 @@
   width: 68px;
   margin-left: 40%;
   color: white;
-  background-color: #78fb6f90;
+  background-color: #aefb6f90;
 }
 
 .press {
@@ -69,10 +72,12 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 .errorMessage {
-  font-size: 9pt;
-  color: rgb(249, 127, 127);
+  font-size: 10.5pt;
+  font-weight: 600;
+  color: rgba(255, 27, 251, 0.727);
   text-align: center;
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+  margin-top: 12px;
 }

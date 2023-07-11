@@ -22,7 +22,7 @@
   color: #f866c5;
   text-decoration: none;
   margin-bottom: 28px;
-  margin-top: 18px;
+  margin-top: 20px;
   margin-left: 15%;
   line-height: 0.8;
   font-weight: 600;
@@ -41,7 +41,7 @@
 }
 .selected {
   color: #f6ff8eb5;
-  font-size: 16.5pt;
+  font-size: 14pt;
 }
 
 .mainTitle {
@@ -50,7 +50,7 @@
   font-weight: 600;
 }
 .title {
-  color: #d2d2d2;
+  color: rgba(255, 255, 255, 0.857);
   font-weight: 400;
   margin-bottom: 35px;
   line-height: 1.1;
