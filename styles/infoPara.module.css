@@ -10,6 +10,7 @@
   border: none;
   font-size: 12pt;
   font-weight: 100;
+  max-height: fit-content;
   overflow: visible;
 }
 
