@@ -11,7 +11,12 @@ export default function Home() {
     <Layout>
       <Navbar />
       <div className={styles.container}>
-        <CldVideoPlayer id="pedvid" src="https://youtube/j5lMLbswsT0" />
+        <CldVideoPlayer
+          id="pedvid"
+          src="https://youtu.be/j5lMLbswsT0"
+          height={100}
+          width={600}
+        />
         <MediaLinks />
         <Contact_button />
       </div>
