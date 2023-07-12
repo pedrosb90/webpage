@@ -1,9 +1,8 @@
 .container {
-  display: flex;
-  align-items: center;
-  margin-left: -39%;
-  margin-top: 210px;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
+
 .press {
   transition: transform 0.3s ease;
   background-color: rgba(255, 255, 255, 0.3);

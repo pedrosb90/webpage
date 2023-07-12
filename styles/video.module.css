@@ -1,0 +1,11 @@
+.container {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  color: white;
+  background-color: rgba(70, 70, 70, 0.2);
+  margin: auto;
+  margin-top: 10%;
+  width: 38%;
+  border-radius: 30px;
+}
