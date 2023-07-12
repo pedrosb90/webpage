@@ -15,12 +15,7 @@ function Bio() {
   return (
     <Layout>
       <Navbar />
-      <button
-        className={`${styles.toggButt} ${styles.press}`}
-        onClick={handleToggle}
-      >
-        {showDiv ? "Short Bio" : "Timeline"}
-      </button>
+
       {showDiv ? (
         <div className={styles.container}>
           <ul>
@@ -55,6 +50,12 @@ function Bio() {
           applications.
         </p>
       )}
+      <button
+        className={`${styles.toggButt} ${styles.press}`}
+        onClick={handleToggle}
+      >
+        {showDiv ? "Show Bio" : "Show Timeline"}
+      </button>
     </Layout>
   );
 }
