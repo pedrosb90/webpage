@@ -15,9 +15,8 @@
   color: white;
   width: auto;
   border-radius: 15px;
-  margin: auto;
+  margin-left: 15%;
   overflow-y: auto;
-  overflow: visible;
 }
 .skillsList {
   margin-left: 20px;

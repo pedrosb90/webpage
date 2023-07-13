@@ -8,7 +8,7 @@ function Projects() {
   return (
     <Layout>
       <Navbar />{" "}
-      <div className={styles.container}>
+      <div>
         <div className={styles.card}>
           <h1 className={styles.mainTitle}>Odyssey</h1>
           <h2 className={styles.subTitle}>
