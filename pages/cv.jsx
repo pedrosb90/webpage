@@ -15,12 +15,15 @@ function Cv() {
   return (
     <Layout>
       <Navbar />
-      <button
-        className={`${styles.toggButt} ${styles.press}`}
-        onClick={handleToggle}
-      >
-        {showPage ? "View Past Experience" : "View Main"}
-      </button>
+      <div>
+        {" "}
+        <button
+          className={`${styles.toggButt} ${styles.press}`}
+          onClick={handleToggle}
+        >
+          {showPage ? "View Past Experience" : "View Main"}
+        </button>
+      </div>
 
       <div className={styles.imageContainer}>
         {showPage ? (
