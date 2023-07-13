@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/legacy/image";
-import myCv1 from "../public/cvrefp1-2.jpg";
+import myCv1 from "../public/cvrefp1.jpg";
 import myCv2 from "../public/cvrefp2.jpg";
 import Navbar from "../comps/navbar";
 import Layout from "../comps/layout";
