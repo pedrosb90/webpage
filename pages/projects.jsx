@@ -28,19 +28,17 @@ function Projects() {
           rel="noopener noreferrer"
           className={styles.atag}
         >
-          <div className={styles.card}>
-            <h1 className={styles.mainTitle}>Med-Connect</h1>
-            <h2 className={styles.subTitle}>Clinic Appointment App</h2>
-            <div className={styles.image}>
-              <Image src={youtubeiso} alt="youtube" width={78} height={50} />{" "}
-            </div>
-            <p className={styles.body}>
-              This is our Bootcamp's final group project; an interactive web
-              application using Next.js, SQL, Express, Redux, Railway, that
-              includes, among other features, user authentication, Cloudinary
-              image mgmnt., Mercadopago payment platform, and mailing.
-            </p>
+          <h1 className={styles.mainTitle}>Med-Connect</h1>
+          <h2 className={styles.subTitle}>Clinic Appointment App</h2>
+          <div className={styles.image}>
+            <Image src={youtubeiso} alt="youtube" width={50} height={35} />{" "}
           </div>
+          <p className={styles.body}>
+            This is our Bootcamp's final group project; an interactive web
+            application using Next.js, SQL, Express, Redux, Railway, that
+            includes, among other features, user authentication, Cloudinary
+            image mgmnt., Mercadopago payment platform, and mailing.
+          </p>
         </a>
       </div>
     </Layout>

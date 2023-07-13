@@ -13,10 +13,11 @@
   padding: 20px;
   background-color: rgba(70, 70, 70, 0.3);
   color: white;
-  width: auto;
-  border-radius: 15px;
-  margin-left: 10%;
+  width: 50%;
+  height: 100vh;
+  margin-left: 8%;
   overflow-y: auto;
+  overflow-x: visible;
 }
 .skillsList {
   margin-left: 20px;

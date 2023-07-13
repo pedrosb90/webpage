@@ -2,14 +2,14 @@
   overflow-y: auto;
 } */
 .card {
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   margin-left: 10%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 50%;
   height: 290px;
+  padding: 10px;
   background-color: rgba(24, 24, 24, 0.675);
   border-radius: 20px;
   transition: transform 0.3s ease;
@@ -21,30 +21,45 @@
 .mainTitle {
   margin-top: 4%;
   color: #fbff1d;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
 }
 .subTitle {
   margin: 0;
   line-height: 0.4;
   color: #ffffffc5;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   background-color: rgba(255, 255, 255, 0.362);
   padding: 13px;
   border-radius: 8px;
 }
 .body {
+  font-size: 10pt;
+  font-weight: 400;
   color: rgba(231, 231, 231, 0.742);
-  padding: 18px;
+  padding: 20px;
   margin-bottom: 0;
   margin-top: 0;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 .atag {
   text-decoration: none;
+  margin-bottom: 4%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 290px;
+  padding: 10px;
+  background-color: rgba(24, 24, 24, 0.675);
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  overflow-y: auto;
 }
 .image {
   margin-left: 0;
   margin-top: 10px;
+  margin-bottom: 0;
 }
