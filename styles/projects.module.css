@@ -1,13 +1,44 @@
 .container {
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
+  margin: auto;
+  margin-right: 20%;
 }
 .card {
+  margin-bottom: 10%;
   margin-left: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 600px;
-  height: 400px;
+  height: 240px;
+  background-color: rgba(24, 24, 24, 0.675);
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.mainTitle {
+  margin-top: 4%;
+  color: #fbff1d;
+  font-size: 25px;
+  font-weight: 700;
+}
+.subTitle {
+  margin: 0;
+  line-height: 0.4;
+  color: #ffffffc5;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.362);
+  padding: 13px;
+  border-radius: 8px;
+}
+.body {
+  color: rgba(231, 231, 231, 0.742);
+  padding: 18px;
+}
+.atag {
+  text-decoration: none;
 }
