@@ -9,3 +9,30 @@
   margin-right: 5%;
   max-height: 100vh;
 }
+.toggButt {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  position: fixed;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(245, 49, 255, 0.34);
+  color: white;
+  height: 70px;
+  width: 103px;
+  padding: 30px;
+  border-radius: 22px;
+  margin-left: 40%;
+  font-size: 10pt;
+  border: none;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.press {
+  transition: transform 0.3s ease;
+}
+
+.press:hover {
+  transform: translateY(-5px);
+  background-color: rgba(254, 242, 105, 0.467);
+}

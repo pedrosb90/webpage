@@ -21,8 +21,8 @@ function Navbar({ children }) {
         <h1 className={styles.mainTitle}> Pedro Strauch</h1>
         <h2 className={styles.title}> Full Stack Developer </h2>
       </div>
-      <Link className={isRouteSelected("/bio")} href="/bio">
-        Bio
+      <Link className={isRouteSelected("/background")} href="/background">
+        Background
       </Link>
       <Link className={isRouteSelected("/stack")} href="/stack">
         Stack
