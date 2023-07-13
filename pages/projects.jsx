@@ -21,17 +21,19 @@ function Projects() {
             updates..{" "}
           </p>
         </div>
+
         <a
           href="https://youtu.be/emK9kB3gcEU"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.atag}
         >
-          {" "}
           <div className={styles.card}>
             <h1 className={styles.mainTitle}>Med-Connect</h1>
             <h2 className={styles.subTitle}>Clinic Appointment App</h2>
-            <Image src={youtubeiso} alt="youtube" width={50} height={50} />
+            <div className={styles.image}>
+              <Image src={youtubeiso} alt="youtube" width={78} height={50} />{" "}
+            </div>
             <p className={styles.body}>
               This is our Bootcamp's final group project; an interactive web
               application using Next.js, SQL, Express, Redux, Railway, that
