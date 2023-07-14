@@ -25,7 +25,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
     background-image: url("/public/wpTheme.jpg");
     background-repeat: no-repeat;
     background-size: cover;
