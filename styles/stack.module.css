@@ -40,3 +40,34 @@
 .imageContainer {
   border-radius: 10px;
 }
+
+@media (max-width: 490px) {
+  .title {
+    font-size: medium;
+    margin-top: 10px;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    overflow: visible;
+  }
+
+  .skillsList {
+    margin-left: 10px;
+    font-size: 8pt;
+  }
+
+  .listContainer {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .imageContainer {
+    border-radius: 8px;
+    width: 40%;
+    height: 40%;
+  }
+}
