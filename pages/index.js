@@ -13,7 +13,7 @@ export default function Home() {
       <div className={styles.container}>
         <CldVideoPlayer
           id="pedvid"
-          src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1689298970/Pedro_dev_opx0n9.mp4"
+          src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1689356009/Pedro_dev_LQ_hz7zzq.mp4"
           height={100}
           width={600}
         />
