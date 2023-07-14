@@ -17,6 +17,6 @@
   .background {
     background-image: url("/public/wpTheme.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
