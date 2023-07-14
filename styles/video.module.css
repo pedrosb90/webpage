@@ -8,3 +8,11 @@
   width: 38%;
   border-radius: 30px;
 }
+@media (max-width: 490px) {
+  .container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}

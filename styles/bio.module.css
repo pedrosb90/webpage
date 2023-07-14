@@ -59,3 +59,33 @@
   transform: translateY(-5px);
   background-color: rgba(81, 81, 81, 0.467);
 }
+
+@media (max-width: 490px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-size: 8pt;
+  }
+
+  .title {
+    margin: 20px auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .toggButt {
+    margin: 20px auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+    width: 80px;
+    height: 60px;
+    padding: 20px;
+    font-size: 8pt;
+  }
+
+  .press:hover {
+    background-color: rgba(81, 81, 81, 0.467);
+  }
+}

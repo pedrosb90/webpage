@@ -18,3 +18,16 @@
   display: flex;
   margin-top: 200px;
 }
+
+@media (max-width: 490px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-size: 8pt;
+  }
+
+  .buttonContainer {
+    margin-top: 100px;
+  }
+}
