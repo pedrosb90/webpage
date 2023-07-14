@@ -31,7 +31,7 @@ function Projects() {
           <h1 className={styles.mainTitle}>Med-Connect</h1>
           <h2 className={styles.subTitle}>Clinic Appointment App</h2>
           <div className={styles.image}>
-            <Image src={youtubeiso} alt="youtube" width={50} height={35} />{" "}
+            <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "}
           </div>
           <p className={styles.body}>
             This is our Bootcamp's final group project; an interactive web
