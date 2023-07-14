@@ -57,5 +57,5 @@
 
 .press:hover {
   transform: translateY(-5px);
-  background-color: rgba(254, 242, 105, 0.467);
+  background-color: rgba(81, 81, 81, 0.467);
 }
