@@ -28,6 +28,7 @@ function Stack() {
             <li>Next.js</li>
             <li>Redux</li>
             <li>SQL</li>
+            <li>Vercel</li>
             <li>Figma</li>
             <li>Adobe Photoshop & Lightroom</li>
           </ul>
@@ -45,6 +46,9 @@ function Stack() {
             <li>Communication</li>
             <li>Leadership</li>
             <li>Problem Solving</li>
+            <li>Team Work</li>
+            <li>Conflict resolution</li>
+            <li>Teaching Skills</li>
           </ul>
         </div>
       </div>

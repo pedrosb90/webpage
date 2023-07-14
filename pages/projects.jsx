@@ -17,8 +17,9 @@ function Projects() {
           {/* <Image src="/marscolony.png" width={220} height={150} alt="mars" /> */}
           <p className={styles.body}>
             I am currently working on a Front-End Dashboard that recreates a
-            controll Space Agency Colony Management Dashboard. Stay tuned for
-            updates..{" "}
+            controll Space Agency Colony Management Dashboard. This project
+            implicates a mock API created for the purpose, intense design and
+            state management skills. Stay tuned for updates!{" "}
           </p>
         </div>
 
@@ -34,10 +35,11 @@ function Projects() {
             <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "}
           </div>
           <p className={styles.body}>
-            This is our Bootcamp's final group project; an interactive web
-            application using Next.js, SQL, Express, Redux, Railway, that
-            includes, among other features, user authentication, Cloudinary
-            image mgmnt., Mercadopago payment platform, and mailing.
+            This is our 'Henry' Bootcamp's final group project using AGILE in a
+            3 sprint schedule; an interactive web application using Next.js -
+            Tailwind, SQL, Redux, Express and Railway, that includes, among
+            other features, User forms, User authentication, Cloudinary, Payment
+            gateway and Mailing confirmations.
           </p>
         </a>
       </div>
