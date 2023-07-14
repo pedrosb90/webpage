@@ -17,9 +17,9 @@ function Projects() {
           {/* <Image src="/marscolony.png" width={220} height={150} alt="mars" /> */}
           <p className={styles.body}>
             I am currently working on a Front-End Dashboard that recreates a
-            controll Space Agency Colony Management Dashboard. This project
-            implicates a mock API created for the purpose, intense design and
-            state management skills. Stay tuned for updates!{" "}
+            controll Space Agency Colony Management Panel. This project
+            implicates a mock API created for the purpose, intense interphase
+            design and state management skills. Stay tuned for updates!{" "}
           </p>
         </div>
 
