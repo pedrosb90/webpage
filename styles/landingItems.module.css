@@ -13,9 +13,6 @@
   .container {
     display: block;
     max-height: none;
-  }
-
-  body {
     overflow-y: scroll;
   }
 

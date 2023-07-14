@@ -45,6 +45,7 @@
     margin-right: 0;
     margin-left: 0;
     max-height: none;
+    overflow-y: scroll;
   }
 
   .toggButt {
