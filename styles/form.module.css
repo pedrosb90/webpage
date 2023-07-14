@@ -54,12 +54,13 @@
 .ready {
   justify-content: center;
   text-align: center;
-  font-size: medium;
+  font-size: 10pt;
   border-radius: 12px;
   border: none;
-  height: 38px;
-  width: 68px;
+  height: 50px;
+  width: 80px;
   color: white;
+  margin-top: 25px;
   background-color: #aefb6f90;
 }
 
