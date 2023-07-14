@@ -15,9 +15,9 @@
     max-height: none;
   }
 
-  body {
+  /* body {
     overflow: hidden;
-  }
+  } */
 
   .background {
     position: fixed;
