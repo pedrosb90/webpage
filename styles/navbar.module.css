@@ -60,7 +60,9 @@
     width: 100%;
     margin: 0;
     padding: 20px;
+    border-radius: 0;
     align-items: center;
+    background-color: rgba(70, 70, 70, 0.747);
   }
 
   .link {
