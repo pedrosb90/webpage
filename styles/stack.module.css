@@ -23,11 +23,11 @@
   margin-left: 20px;
   list-style-type: none;
   line-height: 1.4;
-  font-size: 11pt;
+  font-size: 10pt;
+  font-weight: 400;
+  color: rgba(231, 231, 231, 0.819);
 }
 .listContainer {
-  /* justify-content: center; */
-
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -36,7 +36,6 @@
   background-color: rgba(70, 70, 70, 0.3);
   width: 600px;
   border-radius: 15px;
-  font-weight: 300;
 }
 .imageContainer {
   border-radius: 10px;
