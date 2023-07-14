@@ -66,8 +66,10 @@
 @media (max-width: 490px) {
   .card,
   .atag {
-    margin-left: 5%;
-    width: 90%;
+    margin-left: auto;
+    width: 100vw;
+    border-radius: 0;
+    height: 270px;
   }
 
   .mainTitle {
