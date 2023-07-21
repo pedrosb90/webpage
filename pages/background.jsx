@@ -39,13 +39,14 @@ function Background() {
       ) : (
         <p className={stylesII.container}>
           I am a Full-Stack dev with the mission of creating amazing, next level
-          web and mobile applications. My passion por extreme sports, cinema,
-          computers and photography inspire me to create amazing user
-          experiences. I am an objective focused person who understands mission
-          statements very well. I choose working with libraries that allow agile
-          and smart developing that rocket results. I am going to combine
-          attractive visuals with the use of the best tech and human practices
-          to create volatile applications.
+          web and mobile applications. I jumped into this world because I wanted
+          to be able to create my ideas as soon as I got them. My passion por
+          extreme sports, cinema, computers and photography inspire me to create
+          amazing user experiences. I am an objective focused person who
+          understands mission statements very well. I choose working with
+          libraries that allow agile and smart developing that rocket results. I
+          am going to combine attractive visuals with the use of the best tech
+          and human practices to create volatile applications.
         </p>
       )}
       <button
