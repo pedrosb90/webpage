@@ -42,6 +42,23 @@ function Projects() {
             gateway and Mailing confirmations.
           </p>
         </a>
+        <a
+          href="https:eduardostrauch.art"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.atag}
+        >
+          <h1 className={styles.mainTitle}>Eduardo Strauch Art</h1>
+          <h2 className={styles.subTitle}>Shopify Store</h2>
+          <div className={styles.image}>
+            <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "}
+          </div>
+          <p className={styles.body}>
+            This is a Shopify store that lists paintings for sale. I
+            personalized UI to our needs and administer stock and sales, aswell
+            as code updates needed as we grow.
+          </p>
+        </a>
       </div>
     </Layout>
   );
