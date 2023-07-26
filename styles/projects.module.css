@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 800px;
-  height: 220px;
+  width: 790px;
+  height: 200px;
   padding: 10px;
   background-color: rgba(24, 24, 24, 0.629);
   border-radius: 20px;
@@ -50,8 +50,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 800px;
-  height: 220px;
+  width: 790px;
+  height: 200px;
   padding: 10px;
   background-color: rgba(24, 24, 24, 0.629);
   border-radius: 20px;
