@@ -50,9 +50,9 @@ function Projects() {
         >
           <h1 className={styles.mainTitle}>Eduardo Strauch Art</h1>
           <h2 className={styles.subTitle}>Shopify Store</h2>
-          <div className={styles.image}>
+          {/* <div className={styles.image}>
             <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "}
-          </div>
+          </div> */}
           <p className={styles.body}>
             This is a Shopify store that lists paintings for sale. I
             personalized UI to our needs and administer stock and sales, aswell
