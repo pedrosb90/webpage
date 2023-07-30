@@ -52,8 +52,10 @@
 .title {
   color: rgba(255, 255, 255, 0.857);
   font-weight: 400;
-  margin-bottom: 35px;
-  line-height: 1.1;
+}
+.subTitles {
+  margin-top: -5px;
+  color: rgba(255, 255, 255, 0.707);
 }
 @media (max-width: 490px) {
   .container {
