@@ -86,4 +86,9 @@
     margin-top: 2px;
     line-height: 0.3;
   }
+  .subTitles {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.707);
+    font-weight: 100;
+  }
 }
