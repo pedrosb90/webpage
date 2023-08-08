@@ -51,6 +51,14 @@ function Stack() {
             <li>Teaching Skills</li>
           </ul>
         </div>
+        <h1 className={styles.title}>Other</h1>
+        <div className={styles.listContainerOther}>
+          <ul className={styles.skillsList}>
+            <li>Strong client-based focus</li>
+            <li>Time efficient</li>
+            <li>Tri Lingual</li>
+          </ul>
+        </div>
       </div>
     </Layout>
   );

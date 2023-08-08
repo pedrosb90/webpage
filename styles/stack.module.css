@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(70, 70, 70, 0.3);
   color: white;
   width: 50%;
@@ -22,16 +22,27 @@
 .skillsList {
   margin-left: 20px;
   list-style-type: none;
-  line-height: 1.4;
+  line-height: 1.3;
   font-size: 10pt;
   font-weight: 400;
   color: rgba(231, 231, 231, 0.819);
 }
+
 .listContainer {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 10px;
+  background-color: rgba(70, 70, 70, 0.3);
+  width: 600px;
+  border-radius: 15px;
+}
+
+.listContainerOther {
+  margin-top: 20px;
+  flex-direction: row;
+  text-align: center;
   padding: 10px;
   background-color: rgba(70, 70, 70, 0.3);
   width: 600px;
