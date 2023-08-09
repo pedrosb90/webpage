@@ -41,11 +41,11 @@
 
 .listContainerOther {
   margin-top: 20px;
-  /* text-align: center; */
+  text-align: center;
   justify-content: center;
   padding: 10px;
   background-color: rgba(70, 70, 70, 0.3);
-  width: 300px;
+  width: 100vw;
   border-radius: 15px;
 }
 .imageContainer {
