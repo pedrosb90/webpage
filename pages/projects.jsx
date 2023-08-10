@@ -32,7 +32,7 @@ function Projects() {
           <h1 className={styles.mainTitle}>Med-Connect</h1>
           <h2 className={styles.subTitle}>Clinic Appointment App</h2>
           <div className={styles.image}>
-            <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "}
+            {/* <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "} */}
           </div>
           <p className={styles.body}>
             Final group bootcamp project using AGILE in a 3 sprint schedule; an
