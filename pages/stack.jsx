@@ -31,6 +31,8 @@ function Stack() {
             <li>Vercel</li>
             <li>Figma</li>
             <li>Adobe Photoshop & Lightroom</li>
+            <li>SEO Tools</li>
+            <li>Strong client-based focus</li>
           </ul>
         </div>
         <h1 className={styles.title}>Soft Skills</h1>
@@ -51,14 +53,13 @@ function Stack() {
             <li>Teaching Skills</li>
           </ul>
         </div>
-        <h1 className={styles.title}>Other</h1>
+        {/* <h1 className={styles.title}>Other</h1>
         <div className={styles.listContainerOther}>
           <ul className={styles.skillsList}>
-            <li>Strong client-based focus</li>
             <li>Time efficient</li>
             <li>Tri Lingual</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
