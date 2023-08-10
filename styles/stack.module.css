@@ -13,7 +13,7 @@
   padding: 20px;
   background-color: rgba(70, 70, 70, 0.3);
   color: white;
-  width: 50%;
+  width: 60vw;
   height: 100vh;
   margin-left: 8%;
   margin-bottom: 40px;
@@ -36,7 +36,7 @@
   align-items: center;
   padding: 10px;
   background-color: rgba(70, 70, 70, 0.3);
-  width: 600px;
+  width: 90%;
   border-radius: 15px;
 }
 
