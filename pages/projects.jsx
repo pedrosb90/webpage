@@ -35,11 +35,10 @@ function Projects() {
             <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "}
           </div>
           <p className={styles.body}>
-            This is our 'Henry' Bootcamp's final group project using AGILE in a
-            3 sprint schedule; an interactive web application using Next.js -
-            Tailwind, SQL, Redux, Express and Railway, that includes, among
-            other features, User forms, User authentication, Cloudinary, Payment
-            gateway and Mailing confirmations.
+            Final group bootcamp project using AGILE in a 3 sprint schedule; an
+            interactive web application using Next.js - Tailwind, SQL, Redux,
+            Express and Railway: User forms, User authentication, Cloudinary,
+            Payment gateway and Mailing confirmations.
           </p>
         </a>
         <a
@@ -54,9 +53,9 @@ function Projects() {
             <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "}
           </div> */}
           <p className={styles.body}>
-            This is a Shopify store that lists paintings for sale. I
-            personalized UI to our needs and administer stock and sales, aswell
-            as code updates needed as we grow.
+            Shopify store that lists paintings for sale. I personalized UI to
+            our needs and administer stock and sales, aswell as code updates
+            needed as we grow.
           </p>
         </a>
       </div>
