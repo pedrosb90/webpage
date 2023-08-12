@@ -29,16 +29,16 @@ function Cv() {
         {showPage ? (
           <Image
             src={myCv1}
-            width={580}
-            height={790}
+            width={560}
+            height={780}
             alt="CV Page 1"
             className={styles.cvImage}
           />
         ) : (
           <Image
             src={myCv2}
-            width={580}
-            height={790}
+            width={560}
+            height={780}
             alt="CV Page 2"
             className={styles.cvImage}
           />
