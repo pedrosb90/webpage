@@ -8,7 +8,13 @@ function Projects() {
   return (
     <Layout>
       <Navbar />{" "}
-      <div className={styles.container}>
+      <div>
+        <div className={styles.card}>
+          <h1 className={styles.mainTitle}>Focus-Time Counter</h1>
+          <h2 className={styles.subTitle}>React-Native App </h2>{" "}
+          {/* <Image src="/marscolony.png" width={220} height={150} alt="mars" /> */}
+          <p className={styles.body}>Udemy React-Native course practice App</p>
+        </div>
         <div className={styles.card}>
           <h1 className={styles.mainTitle}>Odyssey</h1>
           <h2 className={styles.subTitle}>
@@ -16,10 +22,8 @@ function Projects() {
           </h2>{" "}
           {/* <Image src="/marscolony.png" width={220} height={150} alt="mars" /> */}
           <p className={styles.body}>
-            I am currently working on a Front-End Dashboard that recreates a
-            controll Space Agency Colony Management Panel. This project
-            implicates a mock API created for the purpose, intense interphase
-            design and state management skills. Stay tuned for updates!{" "}
+            Front-End Web Dashboard emmulating a Space Colony Management Panel.
+            Next.js - Mock API - Redux - Figma
           </p>
         </div>
 
@@ -35,10 +39,9 @@ function Projects() {
             {/* <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "} */}
           </div>
           <p className={styles.body}>
-            Final group bootcamp project using AGILE in a 3 sprint schedule; an
-            interactive web application using Next.js - Tailwind, SQL, Redux,
-            Express and Railway: User forms, User authentication, Cloudinary,
-            Payment gateway and Mailing confirmations.
+            Final group bootcamp project AGILE. Web-App - Next.js - Tailwind,
+            SQL, Redux - Express - Railway - User forms, User authentication,
+            Cloudinary, Payment gateway and Mailing confirmations.
           </p>
         </a>
         <a
@@ -53,9 +56,7 @@ function Projects() {
             <Image src={youtubeiso} alt="youtube" width={30} height={18} />{" "}
           </div> */}
           <p className={styles.body}>
-            Shopify store that lists paintings for sale. I personalized UI to
-            our needs and administer stock and sales, aswell as code updates
-            needed as we grow.
+            Shopify store. Personalized UI - Stock Management - Regular updates
           </p>
         </a>
       </div>
