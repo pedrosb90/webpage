@@ -10,10 +10,10 @@ function Projects() {
       <Navbar />{" "}
       <div>
         <div className={styles.card}>
-          <h1 className={styles.mainTitle}>Focus-Time Counter</h1>
-          <h2 className={styles.subTitle}>React-Native App </h2>{" "}
+          <h1 className={styles.mainTitle}>Meals To Go</h1>
+          <h2 className={styles.subTitle}>Restaurant ordering App</h2>{" "}
           {/* <Image src="/marscolony.png" width={220} height={150} alt="mars" /> */}
-          <p className={styles.body}>Udemy React-Native course practice App</p>
+          <p className={styles.body}>React-Native e-Commerce Mobile App</p>
         </div>
         <div className={styles.card}>
           <h1 className={styles.mainTitle}>Odyssey</h1>
