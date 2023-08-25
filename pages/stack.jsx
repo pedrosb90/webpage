@@ -24,14 +24,13 @@ function Stack() {
             <li>HTML</li>
             <li>CSS</li>
             <li>Node</li>
-            <li>React</li>
-            <li>Next.js</li>
+            <li>React/Next.js</li>
+            <li>React-Native (iOS - Android)</li>
             <li>Redux</li>
             <li>SQL</li>
             <li>Vercel</li>
             <li>Figma</li>
             <li>Adobe Photoshop & Lightroom</li>
-            <li>SEO Tools</li>
             <li>Strong client-based focus</li>
           </ul>
         </div>
