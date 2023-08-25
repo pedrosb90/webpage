@@ -21,7 +21,7 @@ function Navbar({ children }) {
         <h1 className={styles.mainTitle}> Pedro Strauch</h1>
         <h2 className={styles.title}> Full Stack Developer </h2>
         <h5 className={styles.subTitles}>
-          Creator - Aspiring SEO - Travel Tech Expert
+          Web & Mobile - Aspiring Product Manager - Travel Tech Expert
         </h5>
       </div>
       <Link className={isRouteSelected("/background")} href="/background">
