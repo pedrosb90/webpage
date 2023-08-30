@@ -15,10 +15,9 @@
   color: white;
   width: 50vw;
   height: 100vh;
-  margin-left: 10%;
+  margin-left: auto;
   margin-bottom: 40px;
   overflow-y: auto;
-  overflow-x: visible;
 }
 .skillsList {
   margin-left: 20px;
