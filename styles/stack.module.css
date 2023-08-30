@@ -29,7 +29,7 @@
 }
 
 .listContainer {
-  margin-top: 20px;
+  margin-top: 18px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,12 +40,12 @@
 }
 
 .listContainerOther {
-  margin-top: 20px;
+  margin-top: 18px;
   text-align: center;
   justify-content: center;
   padding: 10px;
   background-color: rgba(70, 70, 70, 0.3);
-  width: 100vw;
+  width: 90%;
   border-radius: 15px;
 }
 .imageContainer {
