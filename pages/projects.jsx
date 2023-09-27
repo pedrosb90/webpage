@@ -13,16 +13,18 @@ function Projects() {
       <div className={styles.carousel}>
         <div className={styles.card}>
           <h1 className={styles.mainTitle}>Meals To Go</h1>
-          <h2 className={styles.subTitle}>Restaurant ordering App</h2>{" "}
+          <h2 className={styles.subTitle}>Restaurant ordering App</h2>
+          <h3 className={styles.stats}>Stage: Developement</h3>
+          <h3 className={styles.stats}>Status: Incomplete</h3>
           {/* <Image src="/marscolony.png" width={220} height={150} alt="mars" /> */}
           <p className={styles.text}>React-Native e-Commerce Mobile App</p>
         </div>
         <div className={styles.card}>
           <h1 className={styles.mainTitle}>Odyssey</h1>
-          <h2 className={styles.subTitle}>
-            The Exo-Planet Colony Manager
-          </h2>{" "}
-          <Image src="/marscolony.png" width={220} height={150} alt="mars" />
+          <h2 className={styles.subTitle}>The Exo-Planet Colony Manager</h2>
+          <h3 className={styles.stats}>Stage: Developement</h3>
+          <h3 className={styles.stats}>Status: Incomplete</h3>
+          <Image src="/marscolony.png" width={220} height={140} alt="mars" />
           <p className={styles.text}>
             Front-End Web Dashboard emmulating a Space Colony Management Panel.
             Next.js - Mock API - Redux - Figma
@@ -37,7 +39,9 @@ function Projects() {
         >
           <h1 className={styles.mainTitle}>Med-Connect</h1>
           <h2 className={styles.subTitle}>Clinic Appointment App</h2>
-          <Image src={medi} alt="medicina" width={220} height={150} />{" "}
+          <h3 className={styles.stats}>Stage: Production test</h3>
+          <h3 className={styles.stats}>Status: Complete-Offline</h3>
+          <Image src={medi} alt="medicina" width={220} height={140} />{" "}
           <p className={styles.text}>
             Web-App - Next.js - Tailwind, SQL, Redux - Express - Railway - User
             forms, User authentication, Cloudinary, Payment gateway and Mailing.
@@ -51,7 +55,11 @@ function Projects() {
         >
           <h1 className={styles.mainTitle}>Eduardo Strauch Art</h1>
           <h2 className={styles.subTitle}>Shopify Store</h2>
-          <Image src={esu} alt="esu" width={220} height={150} />{" "}
+          <h3 className={styles.stats}>Stage: Production</h3>
+          <h3 className={styles.stats}>
+            Status: Complete - Regular Maintenance
+          </h3>
+          <Image src={esu} alt="esu" width={220} height={140} />{" "}
           <p className={styles.text}>
             Shopify store. Personalized UI - Stock Management - Regular updates
           </p>
