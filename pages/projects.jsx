@@ -8,7 +8,7 @@ function Projects() {
   return (
     <Layout>
       <Navbar />{" "}
-      <div>
+      <div className={styles.carousel}>
         <div className={styles.card}>
           <h1 className={styles.mainTitle}>Meals To Go</h1>
           <h2 className={styles.subTitle}>Restaurant ordering App</h2>{" "}
