@@ -1,55 +1,29 @@
 .carousel {
-  display: flex; /* Display children in a row */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  white-space: nowrap; /* Prevent card wrapping to the next line */
-  max-width: 50%;
+  display: flex;
+  overflow-x: scroll;
+  height: 70vh;
+  width: 60%;
   margin: auto;
+  align-items: center;
+  text-align: center;
 }
-
 .card {
-  width: 90vw; /* Adjust styles for smaller screens */
-  margin-right: 0;
-  margin-left: 5%; /* Add some margin for spacing between cards */
-  padding: 5px;
+  margin-left: 4%;
+  padding: 20px;
   background-color: rgba(24, 24, 24, 0.629);
   border-radius: 20px;
-  width: 700px;
-  height: 30%;
+  height: 390px;
+  min-width: 300px;
   flex-direction: column;
   align-items: center;
-  /* margin: auto;
- 
-
   transition: transform 0.3s ease;
-  overflow-y: auto; */
+  text-decoration: none;
 }
+
 .card:hover {
   transform: translateY(-5px);
 }
-.atag {
-  width: 90vw; /* Adjust styles for smaller screens */
-  margin-right: 0;
-  margin-left: 5%; /* Add some margin for spacing between cards */
-  padding: 5px;
-  background-color: rgba(24, 24, 24, 0.629);
-  border-radius: 20px;
-  width: 700px;
-  /* text-decoration: none;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 700px;
-  height: auto;
-  padding: 5px;
-  background-color: rgba(24, 24, 24, 0.629);
-  border-radius: 20px;
-  transition: transform 0.3s ease;
-  overflow-y: auto; */
-}
-.atag:hover {
-  transform: translateY(-5px);
-}
+
 .mainTitle {
   color: #f6ff8e;
   font-size: 20px;
@@ -66,15 +40,14 @@
   padding: 12px;
   border-radius: 8px;
 }
-.body {
-  font-size: 10pt;
+.text {
+  font-size: small;
+  margin-top: 10px;
   font-weight: 400;
   color: rgba(231, 231, 231, 0.742);
   padding: 8px;
-  margin-bottom: 0;
-  margin-top: 0;
   line-height: 1.5;
-  text-align: center;
+  max-width: auto;
 }
 
 .image {
@@ -82,8 +55,7 @@
   margin-bottom: -20px;
 }
 @media (max-width: 490px) {
-  .card,
-  .atag {
+  .card {
     margin-left: auto;
     width: 100vw;
     border-radius: 0;
