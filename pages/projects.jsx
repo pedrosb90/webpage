@@ -45,7 +45,7 @@ function Projects() {
           </p>
         </a>
         <a
-          href="https:eduardostrauch.art"
+          href="https://eduardostrauch.art/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.atag}
