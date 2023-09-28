@@ -5,6 +5,7 @@ import styles from "../styles/projects.module.css";
 import youtubeiso from "../public/youtube.png";
 import esu from "../public/esuweb_screen.png";
 import medi from "../public/medicinaweb.png";
+import soon from "../public/web project img 1.jpeg";
 
 function Projects() {
   return (
@@ -16,7 +17,7 @@ function Projects() {
           <h2 className={styles.subTitle}>Restaurant ordering App</h2>
           <h3 className={styles.stats}>Stage: Developement</h3>
           <h3 className={styles.stats}>Status: Incomplete</h3>
-          {/* <Image src="/marscolony.png" width={220} height={150} alt="mars" /> */}
+          <Image src={soon} width={220} height={140} alt="soon" />
           <p className={styles.text}>React-Native e-Commerce Mobile App</p>
         </div>
         <div className={styles.card}>
