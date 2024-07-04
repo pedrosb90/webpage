@@ -10,7 +10,7 @@ function Stack() {
     <Layout>
       <Navbar />
       <div className={styles.container}>
-        <h1 className={styles.title}>Tech & Design Skills</h1>
+        <h1 className={styles.title}>Tech Skills & Design Platforms</h1>
         <div className={styles.listContainer}>
           <Image
             className={styles.imageContainer}
@@ -21,17 +21,19 @@ function Stack() {
           />
           <ul className={styles.skillsList}>
             <li>Javascript</li>
+            <li>React/Next.js</li>
+            <li>React-Native (iOS - Android)</li>
+            <li>Webflow</li>
+            <li>Wordpress</li>
+            <li>Shopify</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Node</li>
-            <li>React/Next.js</li>
-            <li>React-Native (iOS - Android)</li>
             <li>Redux</li>
             <li>SQL</li>
             <li>Vercel</li>
             <li>Figma</li>
             <li>Adobe Photoshop & Lightroom</li>
-            <li>Strong client-based focus</li>
           </ul>
         </div>
         <h1 className={styles.title}>Soft Skills</h1>
@@ -44,6 +46,7 @@ function Stack() {
             display="responsive"
           />
           <ul className={styles.skillsList}>
+            <li>Product Management</li>
             <li>Communication</li>
             <li>Leadership</li>
             <li>Problem Solving</li>

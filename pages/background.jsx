@@ -18,6 +18,7 @@ function Background() {
       {showDiv ? (
         <div className={styles.container}>
           <ul>
+            <h2>Bio Timeline</h2>
             <li>1990 - Born in Montevideo Uruguay, best child of 5 </li>
             <li>1996 - Entered School</li>
             <li>2008 - Flew my first aircraft</li>
@@ -30,33 +31,38 @@ function Background() {
             <li>2022 - Joined Remote Full-Stack Dev. Bootcamp</li>
             <li className={styles.devHighlight}>
               {" "}
-              2023 - Full-Stack Developer COMPLETED
+              2023 - Full-Stack Developer
             </li>
-            <li className={styles.yearHL}>2024 -</li>
+            <li className={styles.devHighlight}>
+              2024 - Product Management Specialisation
+            </li>
             <Image src={imgRocket} height={35} />
           </ul>{" "}
         </div>
       ) : (
         <p className={stylesII.container}>
-          I am a Full-Stack dev with the mission of creating amazing, next level
-          web and mobile applications. When I was around 10 years old I loved
-          Time-Mgmnt games like Sim-City or Business Tycoons, and I would solve
-          computer system related problems myself. As a grown-up, I jumped into
-          the development world because I wanted to be able to create my ideas
-          as soon as they got into my brain. My passion por extreme sports,
-          cinema, computers and photography inspire me to create amazing user
-          experiences. I am an objective focused person who understands mission
-          statements very well. I choose working with libraries that allow agile
-          and smart developing that rocket results. I am going to combine
-          attractive visuals with the use of the best tech and human practices
-          to create volatile applications.
+          I am a Digital Product Designer and Full-Stack Developer with a strong
+          background in management and innovative skills. My mission is to
+          create exceptional, next-level web and mobile applications. From a
+          young age, I was captivated by time-management games like SimCity and
+          Business Tycoon, and I often solved computer system-related problems
+          on my own. This early fascination led me to dive into the development
+          world, driven by a desire to bring my ideas to life as soon as they
+          came to mind. My passion for extreme sports, cinema, computers, and
+          photography fuels my creativity and inspires me to design outstanding
+          user experiences. As an objective-focused professional, I excel at
+          understanding and executing mission statements. I prioritize working
+          with libraries and tools that support agile and smart development,
+          ensuring rapid and effective results. I am dedicated to combining
+          attractive visuals with cutting-edge technology and best practices to
+          develop dynamic and engaging applications.
         </p>
       )}
       <button
         className={`${styles.toggButt} ${styles.press}`}
         onClick={handleToggle}
       >
-        {showDiv ? "Show Bio" : "Show Timeline"}
+        {showDiv ? "Services" : "Bio Timeline"}
       </button>
     </Layout>
   );

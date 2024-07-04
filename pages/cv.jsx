@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/legacy/image";
-import myCv1 from "../public/Pedro Strauch Dark Mode/1cv.jpeg";
-import myCv2 from "../public/Pedro Strauch Dark Mode/2cv.jpeg";
+import myCv1 from "../public/pscvfotoI.jpg";
+import myCv2 from "../public/pscvfotoII.jpg";
 import Navbar from "../comps/navbar";
 import Layout from "../comps/layout";
 import styles from "../styles/cv.module.css";
