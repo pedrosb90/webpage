@@ -28,7 +28,7 @@ function Navbar({ children }) {
         Home
       </Link>
       <Link className={isRouteSelected("/background")} href="/background">
-        Background
+        Services{" "}
       </Link>
       <Link className={isRouteSelected("/stack")} href="/stack">
         Stack
