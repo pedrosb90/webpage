@@ -7,7 +7,7 @@ module.exports = {
     cloudinary.config({
       cloud_name: "ds9ebyi8j",
       api_key: "996875687356672",
-      api_secret: "***************************",
+      api_secret: "7pQXVGSWMzmY60VxtSmnK1WgGu8",
     });
     config.module.rules.push({
       test: /\.css$/,
