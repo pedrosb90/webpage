@@ -30,7 +30,7 @@ export default function Home() {
           <div className={styles.container}>
             <CldVideoPlayer
               id="pedvid"
-              src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1720203899/WhatsApp_Video_2024-07-05_at_15.21.24_kz2umo.mp4"
+              src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1720203899/pedvid.mp4"
               height={500}
               width={500}
             />
