@@ -31,8 +31,8 @@ export default function Home() {
             <CldVideoPlayer
               id="pedvid"
               src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1720203899/pedvid.mp4"
-              height={500}
-              width={500}
+              height="500"
+              width="500"
             />
             <MediaLinks />
             <Contact_button />
