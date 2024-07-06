@@ -4,7 +4,8 @@
   padding: 40px;
   background-color: rgba(70, 70, 70, 0.3);
   width: 28vw;
-  max-height: 85vh;
+  height: auto;
+  max-height: 95vh;
   border-radius: 15px;
   margin-left: 70px;
   overflow-y: hidden;
@@ -25,7 +26,7 @@
   margin-left: 15%;
   line-height: 0.8;
   font-weight: 600;
-  font-size: large;
+  font-size: medium;
   flex-grow: 1;
 }
 .press {

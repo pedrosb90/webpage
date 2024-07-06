@@ -19,7 +19,7 @@ function Navbar({ children }) {
     <nav className={styles.container}>
       <div className={styles.titleContainer}>
         <h1 className={styles.mainTitle}> Pedro Strauch</h1>
-        <h2 className={styles.title}> Product Designer</h2>
+        {/* <h2 className={styles.title}> Product Designer</h2> */}
         <h5 className={styles.subTitles}>
           Full Stack Web & Mobile Native Developer
         </h5>
