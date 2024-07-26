@@ -8,9 +8,19 @@ const Layout = ({ children }) => {
         <title>Soy Pedro</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${bgstyle.container} ${bgstyle.background}`}>
-        {children}
-      </main>
+      <main className={`${bgstyle.container} `}>{children}</main>
+      <video
+        autoPlay
+        muted
+        loop
+        className={`${bgstyle.container} ${bgstyle.videoBackground}`}
+      >
+        <source
+          src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1722011343/DEMO_HundeSalon_720_osn0vm.mov"
+          type="video/mp4"
+        />
+        Your browser does not support this video.
+      </video>
       <style jsx global>{`
         html,
         body {
