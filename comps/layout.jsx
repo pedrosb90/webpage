@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
       <main className={`${bgstyle.container} `}>{children}</main>
       <video
         autoPlay
+        playsInline
         muted
         loop
         className={`${bgstyle.container} ${bgstyle.videoBackground}`}
