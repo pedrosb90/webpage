@@ -20,9 +20,7 @@ function Navbar({ children }) {
       <div className={styles.titleContainer}>
         <h1 className={styles.mainTitle}> Pedro Strauch</h1>
         {/* <h2 className={styles.title}> Product Designer</h2> */}
-        <h5 className={styles.subTitles}>
-          Full Stack Web & Mobile Native Developer
-        </h5>
+        <h5 className={styles.subTitles}>PRODUCT DESIGNER</h5>
       </div>
       <Link className={isRouteSelectedHome("/")} href="/">
         Home
