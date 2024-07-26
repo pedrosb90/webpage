@@ -17,7 +17,7 @@ function Background() {
       <Navbar />
       {showDiv ? (
         <div className={stylesII.container}>
-          <p>
+          <div>
             <h2>Digital Creator</h2>I am a Digital Product Designer and
             Full-Stack Developer with a strong background in management and
             innovative skills. My mission is to create exceptional, next-level
@@ -34,7 +34,7 @@ function Background() {
             computers, and photography fuels my creativity and inspires me to
             design outstanding web and mobile applications that boost identity
             communication.
-          </p>
+          </div>
         </div>
       ) : (
         <div className={styles.container}>
