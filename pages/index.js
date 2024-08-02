@@ -4,7 +4,7 @@ import Layout from "../comps/layout";
 import Navbar from "../comps/navbar";
 import Loader from "../comps/loader";
 import MediaLinks from "../comps/mediaLinks";
-import { CldVideoPlayer, CloudinaryContext } from "next-cloudinary";
+// import { CldVideoPlayer, CloudinaryContext } from "next-cloudinary";
 import styles from "../styles/video.module.css";
 import stylesL from "../styles/loader.module.css";
 
