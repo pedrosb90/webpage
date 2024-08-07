@@ -1,4 +1,5 @@
-import Layout from "../comps/layout";
+// import Layout from "../comps/layout";
+import StructureLay from "../comps/structureLay";
 import React, { useState } from "react";
 import Navbar from "../comps/navbar";
 import styles from "../styles/form.module.css";
@@ -56,7 +57,7 @@ function Contact_form() {
   };
 
   return (
-    <Layout>
+    <StructureLay>
       <Navbar />{" "}
       <div className={styles.container}>
         <form
@@ -122,7 +123,7 @@ function Contact_form() {
           </button>
         </form>
       </div>
-    </Layout>
+    </StructureLay>
   );
 }
 

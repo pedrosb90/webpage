@@ -3,7 +3,8 @@ import Image from "next/legacy/image";
 import myCv1 from "../public/pscvfotoI.jpg";
 import myCv2 from "../public/pscvfotoII.jpg";
 import Navbar from "../comps/navbar";
-import Layout from "../comps/layout";
+// import Layout from "../comps/layout";
+import StructureLay from "../comps/structureLay";
 import styles from "../styles/cv.module.css";
 
 function Cv() {
@@ -13,7 +14,7 @@ function Cv() {
     setShowPage(!showPage);
   };
   return (
-    <Layout>
+    <StructureLay>
       <Navbar />
       <div>
         {" "}
@@ -44,7 +45,7 @@ function Cv() {
           />
         )}
       </div>
-    </Layout>
+    </StructureLay>
   );
 }
 

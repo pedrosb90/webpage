@@ -1,10 +1,11 @@
-import Layout from "../comps/layout";
+// import Layout from "../comps/layout";
+import StructureLay from "../comps/structureLay";
 import Navbar from "../comps/navbar";
 import styles from "../styles/contact_redirect.module.css";
 
 function Contact_error() {
   return (
-    <Layout>
+    <StructureLay>
       <Navbar />
       <div className={styles.containerError}>
         <h1 className={styles.message}>
@@ -12,7 +13,7 @@ function Contact_error() {
           directly on LinkedIn.
         </h1>
       </div>
-    </Layout>
+    </StructureLay>
   );
 }
 

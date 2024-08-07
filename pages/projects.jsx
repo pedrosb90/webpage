@@ -1,4 +1,5 @@
-import Layout from "../comps/layout";
+// import Layout from "../comps/layout";
+import StructureLay from "../comps/structureLay";
 import Navbar from "../comps/navbar";
 import Image from "next/legacy/image";
 import styles from "../styles/projects.module.css";
@@ -10,7 +11,7 @@ import mnweb from "../public/mn_cover.png";
 
 function Projects() {
   return (
-    <Layout>
+    <StructureLay>
       <Navbar />{" "}
       <div className={styles.carousel}>
         <div className={styles.card}>
@@ -75,7 +76,7 @@ function Projects() {
           </p>
         </div>
       </div>
-    </Layout>
+    </StructureLay>
   );
 }
 

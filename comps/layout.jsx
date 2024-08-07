@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Head>
-        <title>Soy Pedro</title>
+        <title>Pedro Strauch Digital Designer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${bgstyle.container} `}>{children}</main>

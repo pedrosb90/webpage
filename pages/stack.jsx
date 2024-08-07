@@ -1,4 +1,5 @@
-import Layout from "../comps/layout";
+// import Layout from "../comps/layout";
+import StructureLay from "../comps/structureLay";
 import Navbar from "../comps/navbar";
 import Image from "next/image";
 import styles from "../styles/stack.module.css";
@@ -7,7 +8,7 @@ import dipII from "../public/HenryTA.jpg";
 
 function Stack() {
   return (
-    <Layout>
+    <StructureLay>
       <Navbar />
       <div className={styles.container}>
         <h1 className={styles.title}>Tech Skills & Design Platforms</h1>
@@ -63,7 +64,7 @@ function Stack() {
           </ul>
         </div> */}
       </div>
-    </Layout>
+    </StructureLay>
   );
 }
 

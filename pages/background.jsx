@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Layout from "../comps/layout";
+// import Layout from "../comps/layout";
+import StructureLay from "../comps/structureLay";
 import Navbar from "../comps/navbar";
 import styles from "../styles/bio.module.css";
 import stylesII from "../styles/infoPara.module.css";
@@ -13,7 +14,7 @@ function Background() {
     setShowDiv(!showDiv);
   };
   return (
-    <Layout>
+    <StructureLay>
       <Navbar />
       {showDiv ? (
         <div className={stylesII.container}>
@@ -66,7 +67,7 @@ function Background() {
       >
         {showDiv ? "Short Bio" : "Services"}
       </button>
-    </Layout>
+    </StructureLay>
   );
 }
 
