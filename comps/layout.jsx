@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
         className={`${bgstyle.container} ${bgstyle.videoBackground}`}
       >
         <source
-          src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1722027135/fondo_pagina_ejuvuh.mov"
+          src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1723034425/2439510-hd_1920_1080_30fps_gasda4.mp4"
           type="video/mp4"
         />
         Your browser does not support this video.
