@@ -15,7 +15,7 @@ function Projects() {
     <StructureLay>
       <Navbar />{" "}
       <div className={styles.carousel}>
-        <div
+        <a
           className={styles.card}
           href="https://mnarquitectura.co/"
           target="_blank"
@@ -27,9 +27,9 @@ function Projects() {
           <h3 className={styles.stats}>Status: Complete</h3>
           <Image src={mnweb} width={220} height={140} alt="soon" />
           <p className={styles.text}>Webflow Business CMS Site</p>
-        </div>
+        </a>
 
-        <div
+        <a
           className={styles.card}
           href="https://pedrotravelclub.webflow.io/"
           target="_blank"
@@ -41,23 +41,8 @@ function Projects() {
           <h3 className={styles.stats}>Status: Complete</h3>
           <Image src={tptc} width={220} height={140} alt="soon" />
           <p className={styles.text}>Webflow Site</p>
-        </div>
-        <a
-          href="https://youtu.be/emK9kB3gcEU"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.card}
-        >
-          <h1 className={styles.mainTitle}>Med-Connect</h1>
-          <h2 className={styles.subTitle}>Clinic Appointment App</h2>
-          <h3 className={styles.stats}>Stage: Production test</h3>
-          <h3 className={styles.stats}>Status: Complete-Offline</h3>
-          <Image src={medi} alt="medicina" width={220} height={140} />{" "}
-          <p className={styles.text}>
-            Web-App - Next.js - Tailwind, SQL, Redux - Express - Railway - User
-            forms, User authentication, Cloudinary, Payment gateway and Mailing.
-          </p>
         </a>
+
         <a
           href="https://eduardostrauch.art/"
           target="_blank"
@@ -94,6 +79,22 @@ function Projects() {
             Next.js - Mock API - Redux - Figma
           </p>
         </div>
+        <a
+          href="https://youtu.be/emK9kB3gcEU"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.card}
+        >
+          <h1 className={styles.mainTitle}>Med-Connect</h1>
+          <h2 className={styles.subTitle}>Clinic Appointment App</h2>
+          <h3 className={styles.stats}>Stage: Production test</h3>
+          <h3 className={styles.stats}>Status: Complete-Offline</h3>
+          <Image src={medi} alt="medicina" width={220} height={140} />{" "}
+          <p className={styles.text}>
+            Web-App - Next.js - Tailwind, SQL, Redux - Express - Railway - User
+            forms, User authentication, Cloudinary, Payment gateway and Mailing.
+          </p>
+        </a>
       </div>
     </StructureLay>
   );
