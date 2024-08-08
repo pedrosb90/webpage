@@ -8,21 +8,40 @@ import esu from "../public/esuweb_screen.png";
 import medi from "../public/medicinaweb.png";
 import soon from "../public/web project img 1.jpeg";
 import mnweb from "../public/mn_cover.png";
+import tptc from "../public/tptc.png";
 
 function Projects() {
   return (
     <StructureLay>
       <Navbar />{" "}
       <div className={styles.carousel}>
-        <div className={styles.card}>
+        <div
+          className={styles.card}
+          href="https://mnarquitectura.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <h1 className={styles.mainTitle}>MN Arquitectura</h1>
           <h2 className={styles.subTitle}>Architect & Design Studio</h2>
           <h3 className={styles.stats}>Stage: Production</h3>
           <h3 className={styles.stats}>Status: Complete</h3>
           <Image src={mnweb} width={220} height={140} alt="soon" />
-          <p className={styles.text}>Webflow Portfolio Webpage</p>
+          <p className={styles.text}>Webflow Business CMS Site</p>
         </div>
 
+        <div
+          className={styles.card}
+          href="https://pedrotravelclub.webflow.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1 className={styles.mainTitle}>The Pedro Travel Club</h1>
+          <h2 className={styles.subTitle}>Travel Agency</h2>
+          <h3 className={styles.stats}>Stage: Production</h3>
+          <h3 className={styles.stats}>Status: Complete</h3>
+          <Image src={tptc} width={220} height={140} alt="soon" />
+          <p className={styles.text}>Webflow Site</p>
+        </div>
         <a
           href="https://youtu.be/emK9kB3gcEU"
           target="_blank"
