@@ -8,6 +8,7 @@ import esu from "../public/esuweb_screen.png";
 import medi from "../public/medicinaweb.png";
 import soon from "../public/web project img 1.jpeg";
 import mnweb from "../public/mn_cover.png";
+import pgstore from "../public/pgstore.png";
 import tptc from "../public/tptc.png";
 
 function Projects() {
@@ -15,6 +16,21 @@ function Projects() {
     <StructureLay>
       <Navbar />{" "}
       <div className={styles.carousel}>
+        <a
+          className={styles.card}
+          href="https://pgstore-pedrosb90-s-team.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1 className={styles.mainTitle}>Punta Goods Store</h1>
+          <h2 className={styles.subTitle}>BBQ Sauce Online Store</h2>
+          <h3 className={styles.stats}>Stage: Production</h3>
+          <h3 className={styles.stats}>Status: Complete</h3>
+          <Image src={pgstore} width={220} height={140} alt="soon" />
+          <p className={styles.text}>
+            React App with Mercadopago payment gateway integration
+          </p>
+        </a>
         <a
           className={styles.card}
           href="https://mnarquitectura.co/"

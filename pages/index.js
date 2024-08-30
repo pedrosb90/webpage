@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import Contact_button from "../comps/contact_button";
 // import Layout from "../comps/layout";
 import StructureLay from "../comps/structureLay";
@@ -7,18 +6,8 @@ import Loader from "../comps/loader";
 import MediaLinks from "../comps/mediaLinks";
 // import { CldVideoPlayer, CloudinaryContext } from "next-cloudinary";
 import styles from "../styles/video.module.css";
-import stylesL from "../styles/loader.module.css";
 
 export default function Home() {
-  // const [pageLoading, setPageLoading] = useState(true);
-
-  // useEffect(() => {
-  //   const loadingTimeout = setTimeout(() => {
-  //     setPageLoading(false);
-  //   }, 1500);
-  //   return () => clearTimeout(loadingTimeout);
-  // }, []);
-
   return (
     <StructureLay>
       <>
@@ -44,8 +33,3 @@ export default function Home() {
     </StructureLay>
   );
 }
-// {pageLoading ? (
-//   <div className={stylesL.loaderContainer}>
-//     <Loader />
-//   </div>
-// ) : (
