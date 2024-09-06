@@ -19,10 +19,9 @@ function Background() {
       {showDiv ? (
         <div className={stylesII.container}>
           <div>
-            <h2>Digital Product</h2>I am a Digital Product Designer and
-            Full-Stack Developer with a strong background in management and
-            innovative skills. My mission is to create exceptional, next-level
-            web and mobile applications.
+            <h2>Motivation</h2>I am a Business Expert with a Full-Stack
+            Development foundation. My mission is to create exceptional,
+            next-level digital solutions through breathtaking user experiences.
             <br />
             <br />I adventured into the development world, driven by a desire to
             bring my ideas to life as soon as they came to mind. I prioritize
@@ -30,25 +29,12 @@ function Background() {
             development, ensuring rapid and effective results. I am dedicated to
             combining attractive visuals with cutting-edge technology and best
             practices to develop dynamic and engaging applications.
-            <h2>Video Content</h2>
-            In a world where visuals speak louder than words, my video creation
-            service is dedicated to producing high-quality footage and
-            illustrations that captivate and inspire. I am passionate about
-            standing out from the crowd, bringing a fresh perspective to every
-            project with a focus on relevance, originality, and impact.
             <br />
             <br />
-            Every frame tells a story, and I strive to ensure that each story is
-            not only visually stunning but also deeply meaningful. With an eye
-            for detail and a commitment to excellence, I craft videos that
-            resonate with your audience and leave a lasting impression.
-            <br />
-            <br />
-            Whether you're looking to promote a brand, tell a personal story, or
-            convey a powerful message, my video creation service will elevate
-            your vision to new heights. Let’s create something extraordinary
-            together that truly stands out and speaks to the world.
-            <br />
+            Currently deepening my expertise in React, with a focus on mastering
+            advanced concepts. I'm also expanding into 3D UI development,
+            leveraging technologies like React Three Fiber to create immersive,
+            next-generation user interfaces.
           </div>
         </div>
       ) : (
