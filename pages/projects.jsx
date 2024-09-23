@@ -11,6 +11,7 @@ import soon from "../public/web project img 1.jpeg";
 import mnweb from "../public/mn_cover.png";
 import pgstore from "../public/pgstore.png";
 import tptc from "../public/tptc.png";
+import api_mars from "../public/api-mars.jpg";
 
 //https://raus-aus.eu/
 
@@ -19,6 +20,23 @@ function Projects() {
     <StructureLay>
       <Navbar />{" "}
       <div className={styles.carousel}>
+        <a
+          className={styles.card}
+          href="https://rapidapi.com/pstrauch/api/odyssey7?ref=producthunt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1 className={styles.mainTitle}>Odyssey API</h1>
+          <h2 className={styles.subTitle}>The Colony Simulation API</h2>
+          <h3 className={styles.stats}>Stage: Production Launch</h3>
+          <h3 className={styles.stats}>Status: Complete</h3>
+          <Image src={api_mars} width={220} height={140} alt="mars" />
+          <p className={styles.text}>
+            {" "}
+            This API provides data about an inminent Mars colony. Node - Express
+            - RapidAPI
+          </p>
+        </a>
         <a
           className={styles.card}
           href="https://pgstore-pedrosb90-s-team.vercel.app/"
@@ -126,7 +144,7 @@ function Projects() {
           <Image src="/marscolony.png" width={220} height={140} alt="mars" />
           <p className={styles.text}>
             Front-End Web Dashboard emmulating a Space Colony Management Panel.
-            Next.js - Mock API - Redux - Figma
+            Three.js - React Three Fiber
           </p>
         </div>
       </div>
