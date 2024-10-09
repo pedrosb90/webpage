@@ -19,7 +19,7 @@ function Background() {
       {showDiv ? (
         <div className={stylesII.container}>
           <div>
-            <h2>Motivation</h2>I am a Business Expert with a Full-Stack
+            <h2>Services</h2>I am a Business Expert with a Full-Stack
             Development foundation. My mission is to create exceptional,
             next-level digital solutions through breathtaking user experiences.
             <br />

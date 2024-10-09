@@ -1,14 +1,24 @@
 import Head from "next/head";
 import bgstyle from "../styles/landingItems.module.css";
+import pstudio from "../public/pstudio.jpeg";
+import Image from "next/image";
 
 const Layout = ({ children }) => {
   return (
     <div>
       <Head>
-        <title>Pedro Strauch Digital Designer</title>
+        <title>PS Studio Digital Design</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${bgstyle.container} `}>{children}</main>
+      <div className={bgstyle.navlogo}>
+        <Image
+          src={pstudio}
+          border-radius={15}
+          height={160}
+          alt="Pedro Strauch studio Logo"
+        />
+      </div>
       <video
         autoPlay
         playsInline

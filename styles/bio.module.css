@@ -1,11 +1,10 @@
 .container {
   display: flex;
-  background-color: rgba(70, 70, 70, 0.189);
+  background-color: rgba(70, 70, 70, 0.75);
   margin: auto;
   width: auto;
-  height: auto;
-  max-height: 95vh;
-  border-radius: 15px;
+  height: 100vh;
+  /* border-radius: 15px; */
   padding: 30px;
   padding-left: 20px;
   padding-right: 40px;
