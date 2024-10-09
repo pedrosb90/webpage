@@ -1,8 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/navbar.module.css";
-import pstudio from "../public/pstudio.png";
 import { useRouter } from "next/router";
-import Image from "next/image";
 
 function Navbar({ children }) {
   const router = useRouter();
@@ -34,7 +32,7 @@ function Navbar({ children }) {
         Home
       </Link>
       <Link className={isRouteSelected("/background")} href="/background">
-        Motivation{" "}
+        Services{" "}
       </Link>
       <Link className={isRouteSelected("/stack")} href="/stack">
         Stack
