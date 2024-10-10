@@ -23,7 +23,7 @@
 @media (max-width: 490px) and (max-height: 1000px) {
   .container {
     display: block;
-    max-height: none;
+    max-height: 100vh;
     overflow-y: scroll;
   }
 
