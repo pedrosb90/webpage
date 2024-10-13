@@ -1,13 +1,13 @@
 import Head from "next/head";
 import bgstyle from "../styles/landingItems.module.css";
-import pstudio from "../public/pstudio.jpeg";
+import pstudio from "../public/pstudiologo2.jpeg";
 import Image from "next/image";
 
 const Layout = ({ children }) => {
   return (
     <div>
       <Head>
-        <title>PS Studio Digital Design</title>
+        <title>PS Studio Digital Solutions</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${bgstyle.container} `}>{children}</main>
@@ -15,9 +15,10 @@ const Layout = ({ children }) => {
         <Image
           src={pstudio}
           border-radius={15}
-          height={160}
+          height={60}
           alt="Pedro Strauch studio Logo"
         />
+        <h1 className={bgstyle.heading}>Solutions Design</h1>
       </div>
       <video
         autoPlay

@@ -37,15 +37,16 @@ function Navbar({ children }) {
           <Link className={isRouteSelectedHome("/")} href="/">
             Home
           </Link>
+          <Link className={isRouteSelected("/cv")} href="/cv">
+            About
+          </Link>
           <Link className={isRouteSelected("/background")} href="/background">
             Services{" "}
           </Link>
           <Link className={isRouteSelected("/stack")} href="/stack">
-            Stack
+            Toolbox{" "}
           </Link>
-          <Link className={isRouteSelected("/cv")} href="/cv">
-            CV
-          </Link>
+
           <Link className={isRouteSelected("/projects")} href="/projects">
             Projects
           </Link>
