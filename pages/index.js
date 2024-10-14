@@ -1,17 +1,14 @@
 import Contact_button from "../comps/contact_button";
 import StructureLay from "../comps/structureLay";
 import Navbar from "../comps/navbar";
-import Hamburger from "../comps/hamburger";
 import MediaLinks from "../comps/mediaLinks";
 import styles from "../styles/video.module.css";
-import { useState } from "react";
 
 export default function Home({}) {
   return (
     <StructureLay>
       <>
         <Navbar />
-        {/* <Hamburger toggleMenu={toggleMenu} /> */}
 
         <div className={styles.container}>
           <iframe

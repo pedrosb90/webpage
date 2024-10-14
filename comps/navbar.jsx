@@ -5,7 +5,7 @@ import { useMenu } from "./menuContext";
 
 function Navbar({ children }) {
   const router = useRouter();
-  const { menuOpen } = useMenu();
+  const { menuOpen, toggleMenu } = useMenu();
 
   const isRouteSelected = (route) => {
     return router.pathname === route
@@ -22,23 +22,47 @@ function Navbar({ children }) {
     <div>
       <nav className={styles.container}>
         <div className={`${styles.menu} ${menuOpen ? styles.open : ""}`}>
-          <Link className={isRouteSelectedHome("/")} href="/">
+          <Link
+            className={isRouteSelectedHome("/")}
+            onClick={toggleMenu}
+            href="/"
+          >
             Home
           </Link>
-          <Link className={isRouteSelected("/cv")} href="/cv">
+          <Link
+            className={isRouteSelected("/cv")}
+            onClick={toggleMenu}
+            href="/cv"
+          >
             About
           </Link>
-          <Link className={isRouteSelected("/background")} href="/background">
+          <Link
+            className={isRouteSelected("/background")}
+            onClick={toggleMenu}
+            href="/background"
+          >
             Services{" "}
           </Link>
-          <Link className={isRouteSelected("/stack")} href="/stack">
+          <Link
+            className={isRouteSelected("/stack")}
+            onClick={toggleMenu}
+            href="/stack"
+          >
             Toolbox{" "}
           </Link>
 
-          <Link className={isRouteSelected("/projects")} href="/projects">
+          <Link
+            className={isRouteSelected("/projects")}
+            onClick={toggleMenu}
+            href="/projects"
+          >
             Projects
           </Link>
-          <Link className={isRouteSelected("/contact")} href="/contact">
+          <Link
+            className={isRouteSelected("/contact")}
+            onClick={toggleMenu}
+            href="/contact"
+          >
             Contact{" "}
           </Link>
         </div>

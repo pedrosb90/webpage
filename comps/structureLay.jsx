@@ -1,4 +1,3 @@
-import Head from "next/head";
 import bgstyle from "../styles/landingItems.module.css";
 
 const StructureLay = ({ children }) => {
