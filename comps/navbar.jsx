@@ -1,14 +1,11 @@
 import Link from "next/link";
 import styles from "../styles/navbar.module.css";
 import { useRouter } from "next/router";
-import { useState } from "react";
-import mobileMenu from "../public/newhamb.png";
-import Image from "next/image";
+import { useMenu } from "./menuContext";
 
 function Navbar({ children }) {
   const router = useRouter();
-
-  const [menuOpen, setMenuOpen] = useState(false);
+  const { menuOpen } = useMenu();
 
   const isRouteSelected = (route) => {
     return router.pathname === route
@@ -21,17 +18,8 @@ function Navbar({ children }) {
       : `${styles.link} ${styles.more} ${styles.press}`;
   };
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
     <div>
-      <Image
-        onClick={toggleMenu}
-        src={mobileMenu}
-        className={styles.hamburger}
-      />
       <nav className={styles.container}>
         <div className={`${styles.menu} ${menuOpen ? styles.open : ""}`}>
           <Link className={isRouteSelectedHome("/")} href="/">
