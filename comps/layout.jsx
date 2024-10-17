@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <MenuProvider>
       <div>
         <Head>
-          <title>PS Studio Digital Solutions</title>
+          <title>Pedro Strauch Digital Solutions</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={`${bgstyle.container} `}>{children}</main>
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
             height={60}
             alt="Pedro Strauch studio Logo"
           />
-          <h1 className={bgstyle.heading}>Solutions Design</h1>
+          <h1 className={bgstyle.heading}>Web App Development</h1>
 
           <Hamburger />
         </div>
