@@ -19,23 +19,47 @@ function Background() {
       {showDiv ? (
         <div className={stylesII.container}>
           <div>
-            <h2>Services</h2>I am a Business Expert with a Full-Stack
-            Development foundation. My mission is to create exceptional,
-            next-level digital solutions through breathtaking user experiences.
+            <h2>E-Commerce Development</h2>I specialize in creating powerful,
+            conversion-driven e-commerce stores. Whether you're launching a new
+            online shop or optimizing an existing one, we provide end-to-end
+            solutions to ensure seamless operations, stunning design, and
+            maximum sales.
             <br />
-            <br />I adventured into the development world, driven by a desire to
-            bring my ideas to life as soon as they came to mind. I prioritize
-            working with libraries and tools that support agile and smart
-            development, ensuring rapid and effective results. I am dedicated to
-            combining attractive visuals with cutting-edge technology and best
-            practices to develop dynamic and engaging applications.
-            <br />
-            <br />
-            Currently deepening my expertise in React, with a focus on mastering
-            advanced concepts. I'm also expanding into 3D UI development,
-            leveraging technologies like React Three Fiber to create immersive,
-            next-generation user interfaces.
+            <h5>Shopify Configuration</h5>I adventured into the development
+            world, driven by a desire to bring my ideas to life as soon as they
+            came to mind. I prioritize working with libraries and tools that
+            support agile and smart development, ensuring rapid and effective
+            results. I am dedicated to combining attractive visuals with
+            cutting-edge technology and best practices to develop dynamic and
+            engaging applications.
+            <h5>Template Personalization</h5>
+            Stand out from the competition with a custom-branded store. We
+            personalize Shopify themes to match your brand identity and provide
+            an engaging user experience.
+            <h5>Inventory & Pricing Management</h5>
+            Keep your store organized with automated inventory tracking and
+            dynamic pricing strategies to stay competitive and maximize profits.
+            <h5>Product Descriptions & Content</h5>
+            Captivate your customers with compelling product descriptions,
+            high-quality images, and SEO-friendly content to boost search
+            rankings and conversions.
+            <h5>Email Marketing & Automations</h5>
+            Turn visitors into loyal customers with automated email campaigns,
+            abandoned cart recovery, and personalized promotions that drive
+            engagement and sales.
+            <h5>Domain Configuration</h5>I handle your domain setup and ensure
+            seamless connection to your Shopify store, giving your business a
+            professional and trustworthy online presence.
+            <h5>Google Metrics & Analytics</h5>Track your store’s performance
+            with Google Analytics and Shopify reports. We help you analyze
+            customer behavior, optimize conversions, and make data-driven
+            decisions.
+            <h5>Dropshipping Setup & Fulfillment</h5>Want to sell without
+            managing inventory? We configure and integrate dropshipping
+            solutions, ensuring smooth supplier connections and automated order
+            fulfillment.
           </div>
+          <br />
         </div>
       ) : (
         <div className={styles.container}>

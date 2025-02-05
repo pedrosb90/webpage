@@ -12,7 +12,7 @@ function Stack() {
     <StructureLay>
       <Navbar />
       <div className={styles.container}>
-        <h1 className={styles.title}>Tech Credentials</h1>
+        <h1 className={styles.title}>Certifications</h1>
         <div className={styles.listContainer}>
           <Image
             className={styles.imageContainer}
@@ -34,7 +34,6 @@ function Stack() {
             <li>MongoDb</li>
           </ul>
         </div>
-        <h1 className={styles.title}>Soft Skills</h1>
         <div className={styles.listContainer}>
           <Image
             className={styles.imageContainer}

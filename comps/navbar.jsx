@@ -29,13 +29,13 @@ function Navbar({ children }) {
           >
             Home
           </Link>
-          <Link
+          {/* <Link
             className={isRouteSelected("/cv")}
             onClick={toggleMenu}
             href="/cv"
           >
             About
-          </Link>
+          </Link> */}
           <Link
             className={isRouteSelected("/background")}
             onClick={toggleMenu}
@@ -48,7 +48,7 @@ function Navbar({ children }) {
             onClick={toggleMenu}
             href="/stack"
           >
-            Toolbox{" "}
+            Certifications{" "}
           </Link>
 
           <Link
