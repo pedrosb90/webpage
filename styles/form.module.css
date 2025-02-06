@@ -48,8 +48,8 @@
   height: 50px;
   margin-top: 25px;
   width: 80px;
-  color: white;
-  background-color: #6fcafbd4;
+  color: rgb(152, 152, 152);
+  background-color: #edff7c;
 }
 .ready {
   justify-content: center;

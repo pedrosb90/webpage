@@ -5,6 +5,7 @@ import Image from "next/legacy/image";
 import styles from "../styles/projects.module.css";
 import youtubeiso from "../public/youtube.png";
 import esu from "../public/esuweb_screen.png";
+import vds from "../public/vds.png";
 import raus from "../public/raus.png";
 import medi from "../public/medicinaweb.png";
 import soon from "../public/web project img 1.jpeg";
@@ -21,20 +22,37 @@ function Projects() {
       <Navbar />{" "}
       <div className={styles.carousel}>
         <a
-          className={styles.card}
-          href="https://rapidapi.com/pstrauch/api/odyssey7?ref=producthunt"
+          href="https://veedub.store/"
           target="_blank"
           rel="noopener noreferrer"
+          className={styles.card}
         >
-          <h1 className={styles.mainTitle}>Odyssey API</h1>
-          <h2 className={styles.subTitle}>The Colony Simulation API</h2>
-          <h3 className={styles.stats}>Stage: Production Launch</h3>
-          <h3 className={styles.stats}>Status: Complete</h3>
-          <Image src={api_mars} width={220} height={140} alt="mars" />
+          <h1 className={styles.mainTitle}>Vee Dub Store</h1>
+          <h2 className={styles.subTitle}>Shopify Store</h2>
+          <h3 className={styles.stats}>Stage: Production</h3>
+          <h3 className={styles.stats}>
+            Status: Complete - Regular Maintenance
+          </h3>
+          <Image src={vds} alt="vds" width={220} height={140} />{" "}
           <p className={styles.text}>
-            {" "}
-            This API provides data about an inminent Mars colony. Node - Express
-            - RapidAPI
+            Shopify store. Personalized UI - Stock Management - Regular updates
+          </p>
+        </a>
+        <a
+          href="https://eduardostrauch.art/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.card}
+        >
+          <h1 className={styles.mainTitle}>Eduardo Strauch Art</h1>
+          <h2 className={styles.subTitle}>Shopify Store</h2>
+          <h3 className={styles.stats}>Stage: Production</h3>
+          <h3 className={styles.stats}>
+            Status: Complete - Regular Maintenance
+          </h3>
+          <Image src={esu} alt="esu" width={220} height={140} />{" "}
+          <p className={styles.text}>
+            Shopify store. Personalized UI - Stock Management - Regular updates
           </p>
         </a>
         <a
@@ -52,6 +70,24 @@ function Projects() {
             React App with Mercadopago payment gateway integration
           </p>
         </a>
+        <a
+          className={styles.card}
+          href="https://rapidapi.com/pstrauch/api/odyssey7?ref=producthunt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1 className={styles.mainTitle}>Odyssey API</h1>
+          <h2 className={styles.subTitle}>The Colony Simulation API</h2>
+          <h3 className={styles.stats}>Stage: Production Launch</h3>
+          <h3 className={styles.stats}>Status: Complete</h3>
+          <Image src={api_mars} width={220} height={140} alt="mars" />
+          <p className={styles.text}>
+            {" "}
+            This API provides data about an inminent Mars colony. Node - Express
+            - RapidAPI
+          </p>
+        </a>
+
         <a
           className={styles.card}
           href="https://mnarquitectura.co/"
@@ -80,24 +116,7 @@ function Projects() {
           <p className={styles.text}>Webflow Site</p>
         </a>
 
-        <a
-          href="https://eduardostrauch.art/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.card}
-        >
-          <h1 className={styles.mainTitle}>Eduardo Strauch Art</h1>
-          <h2 className={styles.subTitle}>Shopify Store</h2>
-          <h3 className={styles.stats}>Stage: Production</h3>
-          <h3 className={styles.stats}>
-            Status: Complete - Regular Maintenance
-          </h3>
-          <Image src={esu} alt="esu" width={220} height={140} />{" "}
-          <p className={styles.text}>
-            Shopify store. Personalized UI - Stock Management - Regular updates
-          </p>
-        </a>
-        <a
+        {/* <a
           href="https://raus-aus.eu/"
           target="_blank"
           rel="noopener noreferrer"
@@ -111,8 +130,8 @@ function Projects() {
           <p className={styles.text}>
             Wordpress site. Project Manager & Blog Content administrator.
           </p>
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://youtu.be/emK9kB3gcEU"
           target="_blank"
           rel="noopener noreferrer"
@@ -127,16 +146,16 @@ function Projects() {
             Web-App - Next.js - Tailwind, SQL, Redux - Express - Railway - User
             forms, User authentication, Cloudinary, Payment gateway and Mailing.
           </p>
-        </a>
-        <div className={styles.card}>
+        </a> */}
+        {/* <div className={styles.card}>
           <h1 className={styles.mainTitle}>Meals To Go</h1>
           <h2 className={styles.subTitle}>Restaurant ordering App</h2>
           <h3 className={styles.stats}>Stage: Developement</h3>
           <h3 className={styles.stats}>Status: Incomplete</h3>
           <Image src={soon} width={220} height={140} alt="soon" />
           <p className={styles.text}>React-Native e-Commerce Mobile App</p>
-        </div>
-        <div className={styles.card}>
+        </div> */}
+        {/* <div className={styles.card}>
           <h1 className={styles.mainTitle}>Odyssey</h1>
           <h2 className={styles.subTitle}>The Exo-Planet Colony Manager</h2>
           <h3 className={styles.stats}>Stage: Developement</h3>
@@ -146,7 +165,7 @@ function Projects() {
             Front-End Web Dashboard emmulating a Space Colony Management Panel.
             Three.js - React Three Fiber
           </p>
-        </div>
+        </div> */}
       </div>
     </StructureLay>
   );

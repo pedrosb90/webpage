@@ -1,6 +1,6 @@
 import Head from "next/head";
 import bgstyle from "../styles/landingItems.module.css";
-import pstudio from "../public/pstudiologo2.jpeg";
+import pstudio from "../public/pepinoII.jpeg";
 import Image from "next/image";
 import Hamburger from "./hamburger";
 import { MenuProvider } from "./menuContext";
@@ -18,10 +18,10 @@ const Layout = ({ children }) => {
           <Image
             src={pstudio}
             border-radius={15}
-            height={60}
+            height={145}
             alt="Pedro Strauch studio Logo"
           />
-          <h1 className={bgstyle.heading}>E-Commerce Developer</h1>
+          {/* <h1 className={bgstyle.heading}>E-Commerce Developer</h1> */}
 
           <Hamburger />
         </div>

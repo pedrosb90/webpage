@@ -18,8 +18,8 @@ export default function Home({}) {
             height={300}
           />
           <MediaLinks />
-          <Contact_button />
         </div> */}
+        <Contact_button />
       </>
     </StructureLay>
   );

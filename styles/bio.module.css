@@ -18,7 +18,7 @@
 }
 
 .title {
-  color: #6fcafbd4;
+  color: #edff7c;
   margin-top: 40px;
   margin-right: 5%;
   margin-left: 50%;
@@ -40,7 +40,7 @@
   text-align: center;
   align-items: center;
   flex-direction: column;
-  background-color: #6fcafbd4;
+  background-color: #edff7c;
   color: white;
   height: 70px;
   width: 10%;
