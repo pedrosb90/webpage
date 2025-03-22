@@ -22,8 +22,7 @@ function Projects() {
       <Navbar />
 
       <div className={styles.carousel}>
-        <a className={styles.servicecard}>
-          {" "}
+        <div className={styles.servicecard}>
           <h5 className={styles.serviceTitle}>Shopify Development</h5>
           <p className={styles.text}>
             CMS integration, dynamic inventory control, and high-converting
@@ -36,7 +35,7 @@ function Projects() {
             <p>Google Merchant Center & Analytics </p>
             <p>Dropshipping Integration</p>
           </p>
-        </a>
+        </div>
         <a
           href="https://veedub.store/"
           target="_blank"
