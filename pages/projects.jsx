@@ -34,6 +34,7 @@ function Projects() {
             <p>Custom Store Design</p>
             <p>Google Merchant Center & Analytics </p>
             <p>Dropshipping Integration</p>
+            <p>Payment Gateways</p>
           </p>
         </div>
         <a
