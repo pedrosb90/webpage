@@ -19,7 +19,7 @@ function Background() {
       {showDiv ? (
         <div className={stylesII.container}>
           <div>
-            <h2>E-Commerce Development</h2>I specialize in creating powerful,
+            <h2>Web Services</h2>I specialize in creating powerful,
             conversion-driven e-commerce stores. Whether you're launching a new
             online shop or optimizing an existing one, we provide end-to-end
             solutions to ensure seamless operations, stunning design, and
