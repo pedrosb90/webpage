@@ -5,8 +5,8 @@
   justify-content: center;
   background-color: rgba(70, 70, 70, 0.75);
   border-radius: 20px;
-  height: 520px;
-  width: 40%;
+  height: auto;
+  width: auto;
   padding: 60px;
   border: none;
   margin: auto;

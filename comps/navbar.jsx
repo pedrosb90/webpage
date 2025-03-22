@@ -41,7 +41,15 @@ function Navbar({ children }) {
             onClick={toggleMenu}
             href="/background"
           >
-            Services{" "}
+            Content Creation{" "}
+          </Link>
+
+          <Link
+            className={isRouteSelected("/projects")}
+            onClick={toggleMenu}
+            href="/projects"
+          >
+            E-Commerce
           </Link>
           <Link
             className={isRouteSelected("/stack")}
@@ -51,13 +59,6 @@ function Navbar({ children }) {
             Certifications{" "}
           </Link>
 
-          <Link
-            className={isRouteSelected("/projects")}
-            onClick={toggleMenu}
-            href="/projects"
-          >
-            Projects
-          </Link>
           <Link
             className={isRouteSelected("/contact")}
             onClick={toggleMenu}

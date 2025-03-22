@@ -1,6 +1,6 @@
 import Head from "next/head";
 import bgstyle from "../styles/landingItems.module.css";
-import pstudio from "../public/pepinoII.jpeg";
+import pstudio from "../public/digilogonew.jpg";
 import Image from "next/image";
 import Hamburger from "./hamburger";
 import { MenuProvider } from "./menuContext";
@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <MenuProvider>
       <div>
         <Head>
-          <title>Pedro Strauch E-commerce</title>
+          <title>Pedro Strauch</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={`${bgstyle.container} `}>{children}</main>
@@ -18,10 +18,12 @@ const Layout = ({ children }) => {
           <Image
             src={pstudio}
             border-radius={15}
-            height={145}
-            alt="Pedro Strauch studio Logo"
+            height={120}
+            alt="Pedro Strauch Logo"
           />
-          {/* <h1 className={bgstyle.heading}>E-Commerce Developer</h1> */}
+          <h1 className={bgstyle.heading}>
+            Digital Solutions to Sell & Grow Online
+          </h1>
 
           <Hamburger />
         </div>
@@ -33,7 +35,7 @@ const Layout = ({ children }) => {
           className={`${bgstyle.container} ${bgstyle.videoBackground}`}
         >
           <source
-            src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1725635750/webpage_background_bn_-_1_kizmxy.mov"
+            src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1742670987/web_bgnd_2025_er1dft.mp4"
             type="video/mp4"
           />
           Your browser does not support this video.

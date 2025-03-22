@@ -89,7 +89,7 @@ function Background() {
         className={`${styles.toggButt} ${styles.press}`}
         onClick={handleToggle}
       >
-        {showDiv ? "Short Bio" : "Services"}
+        {showDiv ? "Photography" : "Web Services"}
       </button>
     </StructureLay>
   );

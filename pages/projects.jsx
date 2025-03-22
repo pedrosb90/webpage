@@ -19,8 +19,24 @@ import api_mars from "../public/api-mars.jpg";
 function Projects() {
   return (
     <StructureLay>
-      <Navbar />{" "}
+      <Navbar />
+
       <div className={styles.carousel}>
+        <a className={styles.servicecard}>
+          {" "}
+          <h5 className={styles.serviceTitle}>Shopify Development</h5>
+          <p className={styles.text}>
+            CMS integration, dynamic inventory control, and high-converting
+            content strategies.
+            <p>Shopify Configuration & Management</p>
+            <p>
+              <p>Inventory & Pricing Automation</p>
+            </p>{" "}
+            <p>Custom Store Design</p>
+            <p>Google Merchant Center & Analytics </p>
+            <p>Dropshipping Integration</p>
+          </p>
+        </a>
         <a
           href="https://veedub.store/"
           target="_blank"
@@ -70,7 +86,7 @@ function Projects() {
             React App with Mercadopago payment gateway integration
           </p>
         </a>
-        <a
+        {/* <a
           className={styles.card}
           href="https://rapidapi.com/pstrauch/api/odyssey7?ref=producthunt"
           target="_blank"
@@ -100,7 +116,7 @@ function Projects() {
           <h3 className={styles.stats}>Status: Complete</h3>
           <Image src={mnweb} width={220} height={140} alt="soon" />
           <p className={styles.text}>Webflow Business CMS Site</p>
-        </a>
+        </a> */}
 
         <a
           className={styles.card}
