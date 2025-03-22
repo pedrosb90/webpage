@@ -41,7 +41,7 @@ function Navbar({ children }) {
             onClick={toggleMenu}
             href="/background"
           >
-            Content{" "}
+            Content Marketing{" "}
           </Link>
 
           <Link
