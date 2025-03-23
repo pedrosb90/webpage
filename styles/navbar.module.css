@@ -68,7 +68,9 @@
   position: static;
   width: auto;
 }
-
+.logos {
+  justify-items: flex-start;
+}
 @media (max-width: 768px) {
   .container {
     width: 100%;

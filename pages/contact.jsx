@@ -98,7 +98,7 @@ function Contact_form() {
           </div>
           <div>
             <label className={styles.label} htmlFor="message">
-              Message:
+              I need:
             </label>
             <textarea
               className={styles.text}
