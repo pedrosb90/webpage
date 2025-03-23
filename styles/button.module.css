@@ -1,4 +1,7 @@
 .button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   background-color: #edff7c;
   color: rgb(200, 200, 200);
   border-radius: 22px;
@@ -16,4 +19,11 @@
 .press:hover {
   transform: translateY(-5px);
   background-color: rgba(255, 255, 255, 0.3);
+}
+@media (max-width: 768px) {
+  .button {
+    width: 100px;
+    height: 50px;
+    font-size: small;
+  }
 }
