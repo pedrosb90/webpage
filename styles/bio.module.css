@@ -41,7 +41,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #edff7c;
-  color: white;
+  color: rgba(84, 84, 84, 0.717);
   height: 70px;
   width: 10%;
   padding: 20px;
@@ -61,6 +61,7 @@
 .press:hover {
   transform: translateY(-5px);
   background-color: rgba(81, 81, 81, 0.467);
+  color: white;
 }
 
 @media (max-width: 490px) {
