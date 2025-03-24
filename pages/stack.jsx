@@ -6,6 +6,8 @@ import styles from "../styles/stack.module.css";
 import dipI from "../public/HenryFull.png";
 import dipII from "../public/HenryTA.jpg";
 import dipIII from "../public/pmCoderHouse.png";
+import reactimg from "../public/Reactlogo.png";
+import shopi from "../public/shopilogo.png";
 
 function Stack() {
   return (
@@ -22,10 +24,21 @@ function Stack() {
             display="responsive"
           />
           <ul className={styles.skillsList}>
-            <li>React/Next.js</li>
-            <li>React-Native (iOS - Android)</li>
+            <Image
+              src={reactimg}
+              border-radius={15}
+              height={25}
+              alt="Shopi Logo"
+              style={{}}
+            />{" "}
             <li>Webflow</li>
-            <li>Shopify</li>
+            <Image
+              src={shopi}
+              border-radius={15}
+              height={25}
+              alt="Shopi Logo"
+              style={{}}
+            />{" "}
             <li>HTML</li>
             <li>CSS</li>
             <li>Node</li>

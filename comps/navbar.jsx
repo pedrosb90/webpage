@@ -1,7 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/navbar.module.css";
 import shopi from "../public/shopilogo.png";
-import reactimg from "../public/Reactlogo.png";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useMenu } from "./menuContext";
@@ -80,13 +79,13 @@ function Navbar({ children }) {
           alt="Shopi Logo"
           style={{ marginLeft: "180px" }}
         />
-        <Image
-          src={reactimg}
+        {/* <Image
+          src={webflow}
           border-radius={15}
           height={35}
-          alt="Shopi Logo"
+          alt="Webflow"
           style={{ marginLeft: "180px" }}
-        />
+        /> */}
       </div>
     </div>
   );
