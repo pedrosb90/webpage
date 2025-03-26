@@ -3,6 +3,8 @@ import StructureLay from "../comps/structureLay";
 import Navbar from "../comps/navbar";
 import MediaLinks from "../comps/mediaLinks";
 import styles from "../styles/video.module.css";
+import stylesii from "../styles/projects.module.css";
+import stylesiii from "../styles/infoservices.module.css";
 
 export default function Home({}) {
   return (
@@ -10,16 +12,14 @@ export default function Home({}) {
       <>
         <Navbar />
 
-        {/* <div className={styles.container}>
-          <iframe
-            src="https://res.cloudinary.com/ds9ebyi8j/video/upload/v1721850041/WhatsApp_Video_2024-07-24_at_16.35.51_k41d0v.mp4"
-            frameborder="0"
-            width={400}
-            height={300}
-          />
+        <div className={styles.container}>
+          <div className={stylesii.carousel}>
+            <a className={stylesiii.card}>Hola</a>
+            <a className={stylesiii.card}>Que</a>
+          </div>
           <MediaLinks />
-        </div> */}
-        <Contact_button />
+        </div>
+        {/* <Contact_button /> */}
       </>
     </StructureLay>
   );

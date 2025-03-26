@@ -15,6 +15,8 @@ function MyApp({ Component, pageProps }) {
     return () => clearTimeout(loadingTimeout);
   }, []);
 
+  useEffect(() => {}, []);
+
   return pageLoading ? (
     <Layout>
       <div className={stylesL.loaderContainer}>
