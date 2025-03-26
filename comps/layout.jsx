@@ -12,7 +12,11 @@ const Layout = ({ children }) => {
       <div>
         <Head>
           <title>Pedro Strauch</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.ico" />{" "}
+          <meta
+            name="description"
+            content="Expert digital solutions for startups and e-commerce brands. Grow your business with Shopify, content marketing, and conversion-focused strategies."
+          />
         </Head>
         <main className={`${bgstyle.container} `}>{children}</main>
         <div className={bgstyle.navlogo}>

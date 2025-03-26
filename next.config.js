@@ -2,7 +2,8 @@ require("dotenv").config();
 
 module.exports = {
   // Configure CSS modules
-
+  siteUrl: "https://pedrostrauch.com",
+  generateRobotsTxt: true,
   webpack: (config) => {
     const cloudinary = require("cloudinary").v2;
 
