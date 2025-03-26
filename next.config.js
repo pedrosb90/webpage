@@ -1,6 +1,8 @@
 require("dotenv").config();
 
 module.exports = {
+  // Configure CSS modules
+
   webpack: (config) => {
     const cloudinary = require("cloudinary").v2;
 
