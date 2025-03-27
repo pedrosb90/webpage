@@ -1,16 +1,14 @@
 .container {
-  /* padding: 300px; */
-  padding-top: 100px;
+  /* padding: 10px;
+  padding-top: 10px; */
   align-items: center;
   flex-direction: column;
   display: flex;
   color: white;
-  background-color: rgba(70, 70, 70, 0.189);
+  background-color: rgba(70, 70, 70, 0.462);
   margin: 20px;
   width: 60vw;
-  height: 80vh;
-  max-height: 85vh;
-  border-radius: 18px;
+  height: 100vh;
 }
 @media (max-width: 490px) {
   .container {

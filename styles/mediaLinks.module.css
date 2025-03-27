@@ -1,6 +1,5 @@
 .container {
-  /* margin-bottom: 10%;
-  margin-top: 10%; */
+  /* padding: 10%; */
 }
 
 .press {
@@ -27,11 +26,6 @@
   .press {
     margin-top: 15px;
   }
-}
-
-.container {
-  margin-bottom: 10%;
-  margin-top: 10%;
 }
 
 .press {
