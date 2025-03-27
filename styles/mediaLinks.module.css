@@ -1,22 +1,9 @@
-.container {
-  /* padding: 10%; */
+.style {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
 }
 
-.press {
-  transition: transform 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-.press:hover {
-  transform: translateY(-5px);
-}
-.style {
-  border-radius: 30px;
-  margin-left: 15px;
-}
-.styleInsta {
-  border-radius: 60px;
-  margin-left: 15px;
-}
 @media (max-width: 768px) {
   .container {
     display: flex;
@@ -26,22 +13,9 @@
   .press {
     margin-top: 15px;
   }
-}
-
-.press {
-  transition: transform 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.3);
-  margin: 0 15px; /* Add some horizontal margin between links */
-}
-
-.press:hover {
-  transform: translateY(-5px);
-}
-
-.style {
-  border-radius: 30px;
-}
-
-.styleInsta {
-  border-radius: 60px;
+  .style {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
 }
