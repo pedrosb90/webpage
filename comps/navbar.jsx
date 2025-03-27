@@ -70,7 +70,7 @@ function Navbar({ children }) {
           </Link>
         </div>
       </nav>
-      <div className={styles.logos}>
+      {/* <div className={styles.logos}>
         {" "}
         <Image
           src={shopi}
@@ -79,14 +79,8 @@ function Navbar({ children }) {
           alt="Shopi Logo"
           style={{ marginLeft: "180px" }}
         />
-        {/* <Image
-          src={webflow}
-          border-radius={15}
-          height={35}
-          alt="Webflow"
-          style={{ marginLeft: "180px" }}
-        /> */}
-      </div>
+       
+      </div> */}
     </div>
   );
 }

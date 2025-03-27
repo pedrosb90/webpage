@@ -35,8 +35,8 @@
   .card {
     width: 85%;
     border-radius: 15px;
-    height: 50%;
+    height: auto;
     margin-top: 20px;
-    font-size: x-small;
+    font-size: xx-small;
   }
 }
