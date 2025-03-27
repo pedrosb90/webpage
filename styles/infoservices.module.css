@@ -2,8 +2,8 @@
   margin: 15px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.867);
-  border-radius: 10px;
-  height: 80%;
+  border-radius: 15px;
+  height: 350px;
   width: 50%;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@
 .carousel {
   display: flex;
   overflow-x: scroll;
-  height: auto;
+  min-height: 80%;
   width: 100%;
   margin: auto;
   align-items: center;

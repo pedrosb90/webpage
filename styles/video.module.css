@@ -1,7 +1,6 @@
 .container {
   /* padding: 300px; */
   padding-top: 100px;
-  padding-bottom: 80px;
   align-items: center;
   flex-direction: column;
   display: flex;
@@ -11,7 +10,7 @@
   width: 60vw;
   height: 80vh;
   max-height: 85vh;
-  border-radius: 15px;
+  border-radius: 18px;
 }
 @media (max-width: 490px) {
   .container {
