@@ -8,9 +8,9 @@ function MediaLinks() {
   return (
     <div className={layouts.style}>
       {" "}
-      <Image alt="Reactlogo" src={Reactlogo} height={50} width={170} />
-      <Image alt="Shopifylogo" src={Shopifylogo} height={50} width={200} />
-      <Image alt="Webflowlogo" src={Webflowlogo} height={50} width={200} />
+      <Image alt="Reactlogo" src={Reactlogo} height={40} width={140} />
+      <Image alt="Shopifylogo" src={Shopifylogo} height={40} width={160} />
+      <Image alt="Webflowlogo" src={Webflowlogo} height={40} width={160} />
     </div>
   );
 }
