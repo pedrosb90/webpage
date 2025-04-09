@@ -1,10 +1,10 @@
 .button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
   background-color: #edff7c;
-  color: rgb(200, 200, 200);
-  border-radius: 22px;
+  color: rgba(0, 0, 0, 0.784);
+  border-radius: 15px;
   font-size: medium;
   height: 60px;
   width: 120px;

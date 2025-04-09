@@ -14,8 +14,9 @@
 .cardBlack {
   margin: 15px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.465);
+  background-color: rgba(0, 0, 0, 0.603);
   color: rgb(255, 255, 255);
+  font-weight: bolder;
   border-radius: 15px;
   height: auto;
   width: 50%;

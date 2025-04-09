@@ -3,7 +3,6 @@ import Reactlogo from "../public/Reactlogo.png";
 import Shopifylogo from "../public/shopilogo.png";
 import Webflowlogo from "../public/webflow.png";
 import layouts from "../styles/mediaLinks.module.css";
-
 function MediaLinks() {
   return (
     <div className={layouts.style}>
