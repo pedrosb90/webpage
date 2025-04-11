@@ -14,17 +14,19 @@ import webflow from "../public/webflow.png";
 function Stack() {
   return (
     <StructureLay>
-      <Head>
-        <title>Skills & Certifications – Pedro Strauch</title>
-        <meta
-          name="description"
-          content="Explore Pedro Strauch's skill stack and certifications in web development, communication, and product management. Discover tools like React, Webflow, Shopify, and more."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pedrostrauch.com/stack" />
-        <meta property="og:image" content="/pstudio.jpeg" />
-        <meta name="robots" content="index, follow" />
-      </Head>
+      <html lang="en">
+        <Head>
+          <title>Skills & Certifications – Pedro Strauch</title>
+          <meta
+            name="description"
+            content="Explore Pedro Strauch's skill stack and certifications in web development, communication, and product management. Discover tools like React, Webflow, Shopify, and more."
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://pedrostrauch.com/stack" />
+          <meta property="og:image" content="/pstudio.jpeg" />
+          <meta name="robots" content="index, follow" />
+        </Head>
+      </html>
       <Navbar />
       <div className={styles.container}>
         <h1 className={styles.title}>Certifications</h1>

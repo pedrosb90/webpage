@@ -11,17 +11,19 @@ export default function Home({}) {
   return (
     <StructureLay>
       <>
-        <Head>
-          <title>Online Store & Website Development | Pedro Strauch</title>
-          <meta
-            name="description"
-            content="Build and scale your digital presence with expert Shopify and website development. Custom solutions for startups and businesses."
-          />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://pedrostrauch.com" />
-          <meta property="og:image" content="/pstudio.jpeg" />
-          <meta name="robots" content="index, follow" />
-        </Head>
+        <html lang="en">
+          <Head>
+            <title>E-Commerce Development | Pedro Strauch</title>
+            <meta
+              name="description"
+              content="Build and scale your digital presence with expert Shopify and website development. Custom solutions for startups and businesses."
+            />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://pedrostrauch.com" />
+            <meta property="og:image" content="/pstudio.jpeg" />
+            <meta name="robots" content="index, follow" />
+          </Head>
+        </html>
         <Navbar />
 
         <div className={styles.container}>
