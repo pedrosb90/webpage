@@ -11,12 +11,26 @@ const Layout = ({ children }) => {
     <MenuProvider>
       <div>
         <Head>
-          <title>Pedro Strauch</title>
+          <title>
+            Online Store & Website Development - Pedro Strauch: React & CMS
+          </title>
           <link rel="icon" href="/favicon.ico" />{" "}
           <meta
             name="description"
             content="Expert digital solutions for startups and e-commerce brands. Grow your business with Shopify, content marketing, and conversion-focused strategies."
           />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="Online Store & Website Development – Pedro Strauch: React & CMS"
+          />
+          <meta
+            property="og:description"
+            content="Expert digital solutions for startups and e-commerce brands. Grow your business with Shopify, content marketing, and conversion-focused strategies."
+          />
+          <meta property="og:url" content="https://pedrostrauch.com" />
+          <meta property="og:image" content="/pstudio.jpeg" />
+          <meta name="robots" content="index, follow" />
         </Head>
         <main className={`${bgstyle.container} `}>{children}</main>
         <div className={bgstyle.navlogo}>

@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Contact_button from "../comps/contact_button";
 import StructureLay from "../comps/structureLay";
 import Navbar from "../comps/navbar";
@@ -9,35 +11,51 @@ export default function Home({}) {
   return (
     <StructureLay>
       <>
+        <Head>
+          <title>Online Store & Website Development | Pedro Strauch</title>
+          <meta
+            name="description"
+            content="Build and scale your digital presence with expert Shopify and website development. Custom solutions for startups and businesses."
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://pedrostrauch.com" />
+          <meta property="og:image" content="/pstudio.jpeg" />
+          <meta name="robots" content="index, follow" />
+        </Head>
         <Navbar />
 
         <div className={styles.container}>
           <div className={stylesiii.carousel}>
             <a className={stylesiii.cardBlack}>
-              <h2>ONLINE STORE</h2>
-              <h5>Launch & scale your online store with ease:</h5>
-              <h4>Starting From:</h4>
+              <h2>Online Store Development</h2>
+              <h5>Launch and scale your Shopify store with ease</h5>
+              <h4>Starting at:</h4>
               <h1>USD 1900</h1>
               <h3>Basic Plan</h3>
-              <h5>MAINTENANCE From: USD 40 / month</h5>
-              <h6>Shopify store setup & theme customization</h6>{" "}
-              <h6>Product listings & collection setup</h6>{" "}
-              <h6>Payment & shipping configuration</h6>{" "}
-              <h6>Google Merchant Center & Console integration</h6>{" "}
+              <h5>Maintenance from USD 40 / month</h5>
+              <ul>
+                <li>Shopify store setup & theme customization</li>
+                <li>Product listings & collection organization</li>
+                <li>Payment gateway & shipping setup</li>
+                <li>Google Merchant Center & Search Console integration</li>
+              </ul>
               <Contact_button />
             </a>
+
             <a className={stylesiii.card}>
-              <h2>WEBSITE </h2>
-              <h5>Your digital presence, built for growth</h5>
-              <h4>Starting From:</h4>
+              <h2>Website Development</h2>
+              <h5>Craft your digital presence for growth</h5>
+              <h4>Starting at:</h4>
               <h1>USD 700</h1>
               <h3>Basic Plan</h3>
-              <h5>MAINTENANCE From: USD 20 / month</h5>
-              {/* <h6>USD 25 hourly maintenance fee</h6> */}
-              <h6>Custom landing page design & development</h6>{" "}
-              <h6>Domain setup & hosting configuration</h6>{" "}
-              <h6>SEO & Google indexing</h6>{" "}
-              <h6>Content strategy & SEO optimization</h6> <Contact_button />
+              <h5>Maintenance from USD 20 / month</h5>
+              <ul>
+                <li>Custom landing page design & development</li>
+                <li>Domain setup & hosting configuration</li>
+                <li>SEO & Google indexing</li>
+                <li>Content strategy & keyword optimization</li>
+              </ul>
+              <Contact_button />
             </a>
           </div>
           <MediaLinks />
