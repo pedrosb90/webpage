@@ -13,7 +13,7 @@ export default function Home({}) {
       <>
         <html lang="en">
           <Head>
-            <title>E-Commerce Development | Pedro Strauch</title>
+            <title>The Pedro Lab | Diseño y Soluciones Digitales</title>
             <meta
               name="description"
               content="Build and scale your digital presence with expert Shopify and website development. Custom solutions for startups and businesses."
@@ -29,17 +29,18 @@ export default function Home({}) {
         <div className={styles.container}>
           <div className={stylesiii.carousel}>
             <a className={stylesiii.cardBlack}>
-              <h2>Online Store Development</h2>
-              <h5>Launch and scale your Shopify store with ease</h5>
-              <h4>Starting at:</h4>
+              <h2>Desarrollo E-Commerce Básico</h2>
+              <h5>Lanzá y escala tu negocio vendiendo tus productos online</h5>
+              <h4>Entraga en 1 mes</h4>
               <h1>USD 1900</h1>
-              <h3>Basic Plan</h3>
-              <h5>Maintenance from USD 40 / month</h5>
+              <h3>Plan Esencial 2 años</h3>
+              <h5>Mantenimiento Básico + Dominio USD 35 por mes</h5>
               <ul>
-                <li>Shopify store setup & theme customization</li>
-                <li>Product listings & collection organization</li>
-                <li>Payment gateway & shipping setup</li>
-                <li>Google Merchant Center & Search Console integration</li>
+                <li>Configuración y costumización de diseño</li>
+                <li>Carga de coleciones de productos</li>
+                <li>Integración de pasarelas de pago</li>
+                <li>Dominio de marca</li>
+                <li>SEO bâsico e indexación de Google</li>
               </ul>
               <Contact_button />
             </a>
@@ -59,6 +60,9 @@ export default function Home({}) {
               </ul>
               <Contact_button />
             </a>
+          </div>
+          <div className={styles.container}>
+            <p>The Pedro Lab 2025</p>
           </div>
           <MediaLinks />
         </div>

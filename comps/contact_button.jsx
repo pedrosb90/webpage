@@ -5,7 +5,7 @@ function Contact_button() {
   return (
     <Link href="/contact">
       {" "}
-      <Button>Get a Quote</Button>{" "}
+      <Button>Hablemos</Button>{" "}
     </Link>
   );
 }

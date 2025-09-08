@@ -11,9 +11,7 @@ const Layout = ({ children }) => {
     <MenuProvider>
       <div>
         <Head>
-          <title>
-            Online Store & Website Development - Pedro Strauch: React & CMS
-          </title>
+          <title>The Pedro Lab | Diseño y soluciones digitales </title>
           <link rel="icon" href="/favicon.ico" />{" "}
           <meta
             name="description"
@@ -34,21 +32,10 @@ const Layout = ({ children }) => {
         </Head>
         <main className={`${bgstyle.container} `}>{children}</main>
         <div className={bgstyle.navlogo}>
-          <Image
-            src={pstudio}
-            border-radius={15}
-            height={120}
-            alt="Pedro Strauch Logo"
-          />{" "}
-          {/* <Image
-            src={shopi}
-            border-radius={15}
-            height={45}
-            alt="Shopi Logo"
-            style={{ float: "right" }}
-          /> */}
+          <h1 className={bgstyle.mainheading}>THE PEDRO LAB </h1>
+
           <h1 className={bgstyle.heading}>
-            Digital Solutions to Sell & Grow Online
+            Conecto tu producto al mundo digital con diseño y estrategia{" "}
           </h1>
           <Hamburger />
         </div>

@@ -68,7 +68,7 @@ function Contact_form() {
         >
           <div>
             <label className={styles.label} htmlFor="name">
-              Name:
+              Nombre:
             </label>
             <input
               className={styles.input}
@@ -98,7 +98,7 @@ function Contact_form() {
           </div>
           <div>
             <label className={styles.label} htmlFor="message">
-              I need:
+              Quiero más información:
             </label>
             <textarea
               className={styles.text}
@@ -119,7 +119,7 @@ function Contact_form() {
             }
             type="submit"
           >
-            Send
+            Enviar
           </button>
         </form>
       </div>

@@ -29,7 +29,7 @@ function Navbar({ children }) {
             onClick={toggleMenu}
             href="/"
           >
-            Home
+            Servicios
           </Link>
           {/* <Link
             className={isRouteSelected("/cv")}
@@ -43,7 +43,7 @@ function Navbar({ children }) {
             onClick={toggleMenu}
             href="/background"
           >
-            Content Marketing{" "}
+            Contenido digital{" "}
           </Link>
 
           <Link
@@ -51,14 +51,14 @@ function Navbar({ children }) {
             onClick={toggleMenu}
             href="/projects"
           >
-            E-Commerce
+            Proyectos
           </Link>
           <Link
             className={isRouteSelected("/stack")}
             onClick={toggleMenu}
             href="/stack"
           >
-            Certifications{" "}
+            Tech Stack{" "}
           </Link>
 
           <Link
