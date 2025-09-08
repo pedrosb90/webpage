@@ -55,4 +55,11 @@
     margin-top: 20px;
     font-size: xx-small;
   }
+  .card {
+    width: 85%;
+    border-radius: 15px;
+    height: auto;
+    margin-top: 20px;
+    font-size: xx-small;
+  }
 }
