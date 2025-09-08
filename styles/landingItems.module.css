@@ -61,4 +61,10 @@
   .navlogo {
     height: auto;
   }
+  .heading {
+    font-size: 9px;
+  }
+  .mainheading {
+    font-size: 22px;
+  }
 }
