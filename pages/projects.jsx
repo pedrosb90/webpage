@@ -21,19 +21,17 @@ import api_mars from "../public/api-mars.jpg";
 function Projects() {
   return (
     <StructureLay>
-      <html lang="en">
-        <Head>
-          <title>Projects – Shopify & Web Development | Pedro Strauch</title>
-          <meta
-            name="description"
-            content="Explore real Shopify and website projects by Pedro Strauch. See examples of e-commerce, React apps, and Webflow builds for clients around the world."
-          />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://pedrostrauch.com/projects" />
-          <meta property="og:image" content="/pstudio.jpeg" />
-          <meta name="robots" content="index, follow" />
-        </Head>
-      </html>
+      <Head>
+        <title>Projects – Shopify & Web Development | Pedro Strauch</title>
+        <meta
+          name="description"
+          content="Explore real Shopify and website projects by Pedro Strauch. See examples of e-commerce, React apps, and Webflow builds for clients around the world."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://pedrostrauch.com/projects" />
+        <meta property="og:image" content="/pstudio.jpeg" />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <Navbar />
 
       <div className={styles.carousel}>
