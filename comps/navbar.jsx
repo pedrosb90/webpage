@@ -38,13 +38,13 @@ function Navbar({ children }) {
           >
             About
           </Link> */}
-          <Link
+          {/* <Link
             className={isRouteSelected("/background")}
             onClick={toggleMenu}
             href="/background"
           >
             Contenido digital{" "}
-          </Link>
+          </Link> */}
 
           <Link
             className={isRouteSelected("/projects")}
