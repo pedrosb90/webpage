@@ -8,7 +8,7 @@
   background-color: rgba(199, 199, 199, 0.23);
   margin: 20px;
   width: 60vw;
-  height: 100vh;
+  height: auto;
 }
 @media (max-width: 490px) {
   .container {
