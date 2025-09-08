@@ -97,11 +97,10 @@
 }
 @media (max-width: 490px) {
   .container {
+    margin-top: 35%;
     width: 100vw;
     padding: 20px;
     height: auto;
-    margin: auto;
-    margin-top: 20px;
   }
 
   .label {

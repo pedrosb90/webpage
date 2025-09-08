@@ -1,4 +1,6 @@
 .carousel {
+  padding-top: 10%;
+
   display: flex;
   overflow-x: scroll;
   height: 70vh;
@@ -10,7 +12,7 @@
 .card {
   margin-left: 4%;
   padding: 20px;
-  background-color: rgba(70, 70, 70, 0.3);
+  background-color: transparent;
   border-radius: 20px;
   height: 390px;
   min-width: 300px;
@@ -22,7 +24,7 @@
 .servicecard {
   margin-left: 4%;
   padding: 25px;
-  background-color: rgba(70, 70, 70, 0.3);
+  background-color: transparent;
   border-radius: 20px;
   height: auto;
   min-width: fit-content;
@@ -85,6 +87,8 @@
 }
 @media (max-width: 490px) {
   .carousel {
+    padding-top: 35%;
+
     width: 100vw;
     display: flex;
     flex-direction: column;
