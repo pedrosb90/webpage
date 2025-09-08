@@ -33,7 +33,6 @@ const Layout = ({ children }) => {
         <main className={`${bgstyle.container} `}>{children}</main>
         <div className={bgstyle.navlogo}>
           <h1 className={bgstyle.mainheading}>THE PEDRO LAB </h1>
-
           <h1 className={bgstyle.heading}>
             Conecto tu producto al mundo digital con diseño y estrategia{" "}
           </h1>

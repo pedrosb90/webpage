@@ -25,7 +25,6 @@ export default function Home({}) {
           </Head>
         </html>
         <Navbar />
-
         <div className={styles.container}>
           <div className={stylesiii.carousel}>
             <a className={stylesiii.cardBlack}>
@@ -45,7 +44,6 @@ export default function Home({}) {
               </div>
               <Contact_button />
             </a>
-
             <a className={stylesiii.card}>
               <h2>Diseño Web Express</h2>
               <h5>
@@ -86,6 +84,7 @@ export default function Home({}) {
           <div className={styles.container}>
             <p>The Pedro Lab 2025</p>
           </div>
+          <br></br>
           <MediaLinks />
         </div>
       </>
