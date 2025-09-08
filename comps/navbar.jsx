@@ -31,6 +31,13 @@ function Navbar({ children }) {
           >
             Servicios
           </Link>
+          <Link
+            className={isRouteSelected("/background")}
+            onClick={toggleMenu}
+            href="/background"
+          >
+            Mi trabajo{" "}
+          </Link>
           {/* <Link
             className={isRouteSelected("/cv")}
             onClick={toggleMenu}
@@ -38,21 +45,7 @@ function Navbar({ children }) {
           >
             About
           </Link> */}
-          {/* <Link
-            className={isRouteSelected("/background")}
-            onClick={toggleMenu}
-            href="/background"
-          >
-            Contenido digital{" "}
-          </Link> */}
 
-          <Link
-            className={isRouteSelected("/projects")}
-            onClick={toggleMenu}
-            href="/projects"
-          >
-            Proyectos
-          </Link>
           <Link
             className={isRouteSelected("/stack")}
             onClick={toggleMenu}
@@ -60,7 +53,13 @@ function Navbar({ children }) {
           >
             Tech Stack{" "}
           </Link>
-
+          <Link
+            className={isRouteSelected("/projects")}
+            onClick={toggleMenu}
+            href="/projects"
+          >
+            Proyectos
+          </Link>
           <Link
             className={isRouteSelected("/contact")}
             onClick={toggleMenu}
