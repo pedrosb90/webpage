@@ -65,14 +65,13 @@ export default function Home({}) {
               <h2>Creación a medida</h2>
               <h5>Tu proyecto Desarrollo Web | Mobile</h5>
               <h4>Desarrollo</h4>
-              <h1>USD 800 + USD 28|hora</h1>
+              <h1>USD 28 | hora</h1>
               {/* <h3>Basic Plan</h3> */}
               <h5>Mantenimiento Básico + Dominio USD 20 mensuales</h5>
               <div className={stylesiii.items}>
                 <h6>Diseño personalizado según tu marca</h6>
                 <h6>Arquitectura de contenido adaptada </h6>
                 <h6>Desarrollo de funcionalidades específicas</h6>
-                <h6>Optimización responsive y UX</h6>
                 <h6>Configuración de dominio y hosting a medida</h6>
                 <h6>SEO básico e indexación en Google</h6>
               </div>
