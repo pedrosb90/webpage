@@ -27,7 +27,7 @@ function Stack() {
       </Head>
       <Navbar />
       <div className={styles.container}>
-        <h1 className={styles.title}>Certifications</h1>
+        <h1 className={styles.title}>Certificaciones</h1>
         <div className={styles.listContainer}>
           <Image
             className={styles.imageContainer}
