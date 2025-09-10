@@ -36,7 +36,7 @@ function Navbar({ children }) {
             onClick={toggleMenu}
             href="/background"
           >
-            Mi trabajo{" "}
+            Experiencia{" "}
           </Link>
           {/* <Link
             className={isRouteSelected("/cv")}

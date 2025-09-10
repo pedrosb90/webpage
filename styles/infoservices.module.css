@@ -4,8 +4,10 @@
   background-color: rgba(255, 255, 255, 0.867);
   color: rgb(58, 58, 58);
   border-radius: 15px;
-  height: max-content;
+  height: 100%;
   width: 30%;
+  font-size: small;
+
   flex-direction: column;
   align-items: center;
   transition: transform 0.3s ease;
@@ -17,8 +19,9 @@
   background-color: rgba(0, 0, 0, 0.603);
   color: rgb(255, 255, 255);
   font-weight: bolder;
+  font-size: small;
   border-radius: 15px;
-  height: max-content;
+  height: 100%;
   width: 30%;
   flex-direction: column;
   align-items: center;
@@ -30,7 +33,7 @@
   display: flex;
   overflow-x: scroll;
   width: 100%;
-  min-height: 80%;
+  height: 70%;
   margin: auto;
   align-items: center;
   text-align: center;

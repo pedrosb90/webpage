@@ -1,6 +1,5 @@
 .carousel {
   padding-top: 10%;
-
   display: flex;
   overflow-x: scroll;
   height: 70vh;
