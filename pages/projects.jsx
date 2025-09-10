@@ -11,8 +11,10 @@ import vds from "../public/vds.png";
 import raus from "../public/raus.png";
 import medi from "../public/medicinaweb.png";
 import soon from "../public/web project img 1.jpeg";
-import mnweb from "../public/mn_cover.png";
+import ayerial from "../public/ayerial.png";
+import articular from "../public/clinicarticular.png";
 import pgstore from "../public/pgstore.png";
+import gooddesign from "../public/thegooddesign.png";
 import tptc from "../public/tptc.png";
 import api_mars from "../public/api-mars.jpg";
 
@@ -35,7 +37,7 @@ function Projects() {
       <Navbar />
 
       <div className={styles.carousel}>
-        <div className={styles.servicecard}>
+        {/* <div className={styles.servicecard}>
           <h5 className={styles.serviceTitle}>Shopify Development</h5>
           <p className={styles.text}>
             CMS integration, dynamic inventory control, and high-converting
@@ -49,7 +51,7 @@ function Projects() {
             <p>Dropshipping Integration</p>
             <p>Payment Gateways</p>
           </p>
-        </div>
+        </div> */}
         <a
           href="https://veedub.store/"
           target="_blank"
@@ -99,7 +101,46 @@ function Projects() {
             React App with Mercadopago payment gateway integration
           </p>
         </a>
-        {/* <a
+        <a
+          className={styles.card}
+          href="https://www.ayerial.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1 className={styles.mainTitle}>Aye Rial Estudio Creativo</h1>
+          <h2 className={styles.subTitle}>Landingpage & Tienda Online</h2>
+          <h3 className={styles.stats}>Stage: Production</h3>
+          <h3 className={styles.stats}>Status: Complete</h3>
+          <Image src={ayerial} width={220} height={140} alt="soon" />
+          <p className={styles.text}>Wordpress + SureCart + Calendly</p>
+        </a>
+        <a
+          className={styles.card}
+          href="https://www.thegooddesign.uy/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1 className={styles.mainTitle}>The Good Design</h1>
+          <h2 className={styles.subTitle}>Tienda Online de mobiliario</h2>
+          <h3 className={styles.stats}>Stage: Development</h3>
+          <h3 className={styles.stats}>Status: Setup</h3>
+          <Image src={gooddesign} width={220} height={140} alt="soon" />
+          <p className={styles.text}>Wix CMS E-commerce</p>
+        </a>
+        <a
+          className={styles.card}
+          href="https://www.clinicarticular.com.uy/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1 className={styles.mainTitle}>Clinica Articular</h1>
+          <h2 className={styles.subTitle}>Clinica de artroscopia</h2>
+          <h3 className={styles.stats}>Stage: Development</h3>
+          <h3 className={styles.stats}>Status: Revision</h3>
+          <Image src={articular} width={220} height={140} alt="soon" />
+          <p className={styles.text}>Wix CMS</p>
+        </a>
+        <a
           className={styles.card}
           href="https://rapidapi.com/pstrauch/api/odyssey7?ref=producthunt"
           target="_blank"
@@ -117,7 +158,7 @@ function Projects() {
           </p>
         </a>
 
-        <a
+        {/* <a
           className={styles.card}
           href="https://mnarquitectura.co/"
           target="_blank"
@@ -131,7 +172,7 @@ function Projects() {
           <p className={styles.text}>Webflow Business CMS Site</p>
         </a> */}
 
-        <a
+        {/* <a
           className={styles.card}
           href="https://pedrotravelclub.webflow.io/"
           target="_blank"
@@ -143,7 +184,7 @@ function Projects() {
           <h3 className={styles.stats}>Status: Complete</h3>
           <Image src={tptc} width={220} height={140} alt="soon" />
           <p className={styles.text}>Webflow Site</p>
-        </a>
+        </a> */}
 
         {/* <a
           href="https://raus-aus.eu/"
