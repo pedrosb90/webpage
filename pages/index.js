@@ -21,7 +21,7 @@ export default function Home({}) {
           <meta property="og:url" content="https://thepedrolab.vercel.app/" />
           <meta
             property="og:image"
-            content="https://thepedrolab.vercel.app/screen-shot"
+            content="https://thepedrolab.vercel.app/public/screenII.webp"
           />
           <meta name="robots" content="index, follow" />
         </Head>
