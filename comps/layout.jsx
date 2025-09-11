@@ -27,7 +27,12 @@ const Layout = ({ children }) => {
             content="Soluciones digitales para tu marca, integrando Shopify y otros CMS de e-commerce para vender online en Uruguay y resto del mundo. Print on demand y más."
           />
           <meta property="og:url" content="https://thepedrolab.vercel.app/" />
-          <meta property="og:image" content="/screendos.jpg" />
+          <meta
+            property="og:image"
+            content="https://thepedrolab.vercel.app/screendos.jpg"
+          />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />{" "}
           <meta name="robots" content="index, follow" />
         </Head>
         <main className={`${bgstyle.container} `}>{children}</main>
