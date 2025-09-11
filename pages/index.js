@@ -18,8 +18,11 @@ export default function Home({}) {
             content="Build and scale your digital presence with expert Shopify and website development. Custom solutions for startups and businesses."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://pedrostrauch.com" />
-          <meta property="og:image" content="/pstudio.jpeg" />
+          <meta property="og:url" content="https://thepedrolab.vercel.app/" />
+          <meta
+            property="og:image"
+            content="https://thepedrolab.vercel.app/screen-shot"
+          />
           <meta name="robots" content="index, follow" />
         </Head>
         <Navbar />
