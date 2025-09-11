@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="The Pedro Lab: Soluciones digitales con diseño de primera para tu estrategia de marca, con e-commerce para vender online."
+            content="The Pedro Lab: Soluciones digitales con diseño e-commerce."
           />
           <meta
             property="og:description"
