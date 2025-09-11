@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
           <link rel="icon" href="/favicon.ico" />{" "}
           <meta
             name="description"
-            content="Soluciones digitales para tu marca, integrando Shopify u otros CMS de e-commerce para vender online en Uruguay y resto del mundo. Print on demand y más."
+            content="Soluciones digitales para tu marca, integrando Shopify y otros CMS de e-commerce para vender online en Uruguay y resto del mundo. Print on demand y más."
           />
           <meta property="og:type" content="website" />
           <meta
@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
           />
           <meta
             property="og:description"
-            content="Expert digital solutions for startups and e-commerce brands. Grow your business with Shopify, content marketing, and conversion-focused strategies."
+            content="Soluciones digitales para tu marca, integrando Shopify y otros CMS de e-commerce para vender online en Uruguay y resto del mundo. Print on demand y más."
           />
           <meta property="og:url" content="https://thepedrolab.vercel.app/" />
           <meta property="og:image" content="/screendos.jpg" />
