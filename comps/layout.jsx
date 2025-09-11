@@ -15,12 +15,12 @@ const Layout = ({ children }) => {
           <link rel="icon" href="/favicon.ico" />{" "}
           <meta
             name="description"
-            content="Expert digital solutions for startups and e-commerce brands. Grow your business with Shopify, content marketing, and conversion-focused strategies."
+            content="Soluciones digitales para tu marca, integrando Shopify u otros CMS de e-commerce para vender online en Uruguay y resto del mundo. Print on demand y más."
           />
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Online Store & Website Development – Pedro Strauch: React & CMS"
+            content="The Pedro Lab: Soluciones digitales con diseño de primera para tu estrategia de marca, con e-commerce para vender online."
           />
           <meta
             property="og:description"
