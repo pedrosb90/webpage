@@ -26,8 +26,8 @@ const Layout = ({ children }) => {
             property="og:description"
             content="Expert digital solutions for startups and e-commerce brands. Grow your business with Shopify, content marketing, and conversion-focused strategies."
           />
-          <meta property="og:url" content="https://pedrostrauch.com" />
-          <meta property="og:image" content="/pstudio.jpeg" />
+          <meta property="og:url" content="https://thepedrolab.vercel.app/" />
+          <meta property="og:image" content="/screendos.jpg" />
           <meta name="robots" content="index, follow" />
         </Head>
         <main className={`${bgstyle.container} `}>{children}</main>
